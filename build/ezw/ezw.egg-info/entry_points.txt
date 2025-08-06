@@ -1,0 +1,2 @@
+[console_scripts]
+tcp_can_client = ezw.test:main

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+ezw/__init__.py
+ezw/test.py
+ezw.egg-info/PKG-INFO
+ezw.egg-info/SOURCES.txt
+ezw.egg-info/dependency_links.txt
+ezw.egg-info/entry_points.txt
+ezw.egg-info/requires.txt
+ezw.egg-info/top_level.txt
+ezw.egg-info/zip-safe
+resource/ezw

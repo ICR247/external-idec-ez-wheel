@@ -1,0 +1,9 @@
+source;share/ezw/hook/pythonpath.ps1
+source;share/ezw/hook/pythonpath.dsv
+source;share/ezw/hook/pythonpath.sh
+source;share/ezw/hook/ament_prefix_path.ps1
+source;share/ezw/hook/ament_prefix_path.dsv
+source;share/ezw/hook/ament_prefix_path.sh
+source;../../build/ezw/share/ezw/hook/pythonpath_develop.ps1
+source;../../build/ezw/share/ezw/hook/pythonpath_develop.dsv
+source;../../build/ezw/share/ezw/hook/pythonpath_develop.sh
