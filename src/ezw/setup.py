@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            "tcp_can_client = ezw.test:main"
+            "tcp_can_client = ezw.test:main",
+            "tcp_can_joystick_client = ezw.joy_stick:main"
         ],
     },
 )

@@ -1,3 +1,5 @@
+# take input velocity commands on terminal and sends to robot through TCP to move 
+
 import rclpy
 from rclpy.node import Node
 import socket

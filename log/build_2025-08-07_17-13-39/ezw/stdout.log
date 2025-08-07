@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/ezw/ezw.egg-info
+writing ../../build/ezw/ezw.egg-info/PKG-INFO
+writing dependency_links to ../../build/ezw/ezw.egg-info/dependency_links.txt
+writing entry points to ../../build/ezw/ezw.egg-info/entry_points.txt
+writing requirements to ../../build/ezw/ezw.egg-info/requires.txt
+writing top-level names to ../../build/ezw/ezw.egg-info/top_level.txt
+writing manifest file '../../build/ezw/ezw.egg-info/SOURCES.txt'
+reading manifest file '../../build/ezw/ezw.egg-info/SOURCES.txt'
+writing manifest file '../../build/ezw/ezw.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/icr247/external-idec-ez-wheel/build/ezw/build
+creating /home/icr247/external-idec-ez-wheel/build/ezw/build/lib
+creating /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw
+copying ezw/joy_stick.py -> /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw
+copying ezw/test.py -> /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw
+copying ezw/__init__.py -> /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw
+running install
+running install_lib
+creating /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw
+copying /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw/joy_stick.py -> /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw
+copying /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw/test.py -> /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw
+copying /home/icr247/external-idec-ez-wheel/build/ezw/build/lib/ezw/__init__.py -> /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw
+byte-compiling /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw/joy_stick.py to joy_stick.cpython-312.pyc
+byte-compiling /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw/test.py to test.cpython-312.pyc
+byte-compiling /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index
+creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index
+creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index/packages
+copying resource/ezw -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index/packages
+copying package.xml -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw
+running install_egg_info
+Copying ../../build/ezw/ezw.egg-info to /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw-0.0.0-py3.12.egg-info
+running install_scripts
+Installing tcp_can_client script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw
+Installing tcp_can_joystick_client script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw
+writing list of installed files to '/home/icr247/external-idec-ez-wheel/build/ezw/install.log'

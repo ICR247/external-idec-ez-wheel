@@ -1,0 +1,20 @@
+[0.784s] Invoking command in '/home/icr247/external-idec-ez-wheel/build/ezw': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/icr247/external-idec-ez-wheel/build/ezw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icr247/external-idec-ez-wheel/build/ezw/build --no-deps symlink_data --force
+[1.092s] running develop
+[1.295s] running egg_info
+[1.312s] writing ezw.egg-info/PKG-INFO
+[1.312s] writing dependency_links to ezw.egg-info/dependency_links.txt
+[1.313s] writing entry points to ezw.egg-info/entry_points.txt
+[1.313s] writing requirements to ezw.egg-info/requires.txt
+[1.313s] writing top-level names to ezw.egg-info/top_level.txt
+[1.353s] reading manifest file 'ezw.egg-info/SOURCES.txt'
+[1.354s] writing manifest file 'ezw.egg-info/SOURCES.txt'
+[1.373s] running build_ext
+[1.374s] Creating /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw.egg-link (link to .)
+[1.374s] Installing tcp_can_client script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.374s] Installing tcp_can_joystick_client script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.375s] 
+[1.375s] Installed /home/icr247/external-idec-ez-wheel/build/ezw
+[1.375s] running symlink_data
+[1.375s] symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/resource/ezw -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index/packages
+[1.375s] symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/package.xml -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw
+[1.421s] Invoked command in '/home/icr247/external-idec-ez-wheel/build/ezw' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/icr247/external-idec-ez-wheel/build/ezw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/icr247/external-idec-ez-wheel/build/ezw/build --no-deps symlink_data --force
