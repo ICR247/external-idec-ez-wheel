@@ -1,4 +1,9 @@
-# this program only moves robot forward and backward using the top left joystick on the controller
+'''
+L = 49cm 
+R = 6.25cm
+v_left  = v - (L / 2.0) * omega
+v_right = v + (L / 2.0) * omega
+'''
 
 # IN TERMINAL RUN:
 # ros2 run joy joy_node
@@ -32,14 +37,43 @@ class TcpCanJoystickClient(Node):
         self.joy_sub = self.create_subscription(Joy, '/joy', self.joy_callback, 10)
 
     def joy_callback(self, msg):
-        # Example: left joystick vertical axis = axes[1]
+        # set defaults
+        left_velocity = 0 
+        right_velocity = 0
         try:
-            axis_val = msg.axes[1]  # range: [-1.0, 1.0]
+            vertical_val = msg.axes[1]  # range: [-1.0, 1.0]
+            horizontal_val = msg.axes[0]
             # self.get_logger().info(f"Joy msg: {msg.axes[1]}")
             # self.get_logger().info(f"Joy msg type: {type(msg.axes[1])}")
-            velocity = int(axis_val * 500)  # scale to [-300, 300] or as needed
-            print(velocity)
-            cmd = f'SETVEL:{velocity}\n'
+
+            if horizontal_val >= 0 and vertical_val > 0: # turn forward-left 
+                right_velocity = 500
+                left_velocity = (1 - horizontal_val) * 500
+
+            elif horizontal_val <= 0 and vertical_val > 0: # turn forward-right
+                left_velocity = 500
+                right_velocity = (1 - (horizontal_val * -1)) * 500
+
+            elif horizontal_val > 0 and vertical_val == 0: # rotate left
+                right_velocity = 300
+                left_velocity = -300
+
+            elif horizontal_val < 0 and vertical_val == 0: # rotate right
+                right_velocity = -300
+                left_velocity = 300
+
+            elif horizontal_val >= 0 and vertical_val < 0: # turn backward-left
+                right_velocity = -500
+                left_velocity = (1 - horizontal_val) * -500
+            
+            elif horizontal_val <= 0 and vertical_val < 0: # turn backward-right
+                left_velocity = -500
+                right_velocity = (1 - (-1 * horizontal_val)) * -500
+
+            left_velocity = int(left_velocity)
+            right_velocity = int(right_velocity)
+            cmd = f'LEFTM:{left_velocity}\nRIGHTM:{right_velocity}\n'
+
             self.sock.sendall(cmd.encode('utf-8'))
             time.sleep(0.1)  # give the receiver time to process
             self.get_logger().info(f'Sent command: {cmd.strip()}')
@@ -64,3 +98,4 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
+
