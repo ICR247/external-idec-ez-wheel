@@ -10,6 +10,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        ('share/' + package_name + '/launch', ['launch/bringup.launch.py']), # why do we have to add this???
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -21,7 +22,8 @@ setup(
     entry_points={
         'console_scripts': [
             "tcp_can_client = ezw.test:main",
-            "tcp_can_joystick_client = ezw.joy_stick:main"
+            "tcp_can_diff_client = ezw.diff_drive:main",
+            "object_detector = ezw.object_detector:main",
         ],
     },
 )

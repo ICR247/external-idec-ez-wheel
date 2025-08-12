@@ -1,15 +1,9 @@
 package.xml
 setup.cfg
 setup.py
-../../build/ezw/ezw.egg-info/PKG-INFO
-../../build/ezw/ezw.egg-info/SOURCES.txt
-../../build/ezw/ezw.egg-info/dependency_links.txt
-../../build/ezw/ezw.egg-info/entry_points.txt
-../../build/ezw/ezw.egg-info/requires.txt
-../../build/ezw/ezw.egg-info/top_level.txt
-../../build/ezw/ezw.egg-info/zip-safe
 ezw/__init__.py
-ezw/joy_stick.py
+ezw/diff_drive.py
+ezw/object_detector.py
 ezw/test.py
 ezw.egg-info/PKG-INFO
 ezw.egg-info/SOURCES.txt
@@ -18,4 +12,5 @@ ezw.egg-info/entry_points.txt
 ezw.egg-info/requires.txt
 ezw.egg-info/top_level.txt
 ezw.egg-info/zip-safe
+launch/bringup.launch.py
 resource/ezw

@@ -47,38 +47,39 @@ class TcpCanJoystickClient(Node):
             # self.get_logger().info(f"Joy msg type: {type(msg.axes[1])}")
 
             if horizontal_val >= 0 and vertical_val > 0: # turn forward-left 
-                right_velocity = 500
-                left_velocity = (1 - horizontal_val) * 500
+                right_velocity = 800
+                left_velocity = (1 - horizontal_val) * 800
 
             elif horizontal_val <= 0 and vertical_val > 0: # turn forward-right
-                left_velocity = 500
-                right_velocity = (1 - (horizontal_val * -1)) * 500
+                left_velocity = 800
+                right_velocity = (1 - (horizontal_val * -1)) * 800
 
             elif horizontal_val > 0 and vertical_val == 0: # rotate left
-                right_velocity = 300
-                left_velocity = -300
+                right_velocity = 700
+                left_velocity = -700
 
             elif horizontal_val < 0 and vertical_val == 0: # rotate right
-                right_velocity = -300
-                left_velocity = 300
+                right_velocity = -700
+                left_velocity = 700
 
             elif horizontal_val >= 0 and vertical_val < 0: # turn backward-left
-                right_velocity = -500
-                left_velocity = (1 - horizontal_val) * -500
+                right_velocity = -800
+                left_velocity = (1 - horizontal_val) * -800
             
             elif horizontal_val <= 0 and vertical_val < 0: # turn backward-right
-                left_velocity = -500
-                right_velocity = (1 - (-1 * horizontal_val)) * -500
+                left_velocity = -800
+                right_velocity = (1 - (-1 * horizontal_val)) * -800
 
             left_velocity = int(left_velocity)
             right_velocity = int(right_velocity)
             cmd = f'LEFTM:{left_velocity}\nRIGHTM:{right_velocity}\n'
 
             self.sock.sendall(cmd.encode('utf-8'))
-            time.sleep(0.1)  # give the receiver time to process
+            time.sleep(0.01)  # give the receiver time to process
             self.get_logger().info(f'Sent command: {cmd.strip()}')
         except Exception as e:
             self.get_logger().error(f"Error in joy callback: {e}")
+            exit(1)
 
     def close(self):
         self.sock.close()
@@ -98,4 +99,3 @@ def main(args=None):
 
 if __name__ == '__main__':
     main()
-

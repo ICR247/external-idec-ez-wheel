@@ -1,3 +1,4 @@
 [console_scripts]
+object_detector = ezw.object_detector:main
 tcp_can_client = ezw.test:main
-tcp_can_joystick_client = ezw.joy_stick:main
+tcp_can_diff_client = ezw.diff_drive:main
