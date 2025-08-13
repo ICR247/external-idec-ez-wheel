@@ -1,0 +1,5 @@
+[console_scripts]
+diff_drive = ezw.diff_drive:main
+follow_person = ezw.follow_person:main
+object_detector = ezw.object_detector:main
+test = ezw.test:main

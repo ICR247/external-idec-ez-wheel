@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+from glob import glob
+import os
 
 package_name = 'ezw'
 
@@ -10,7 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        ('share/' + package_name + '/launch', ['launch/bringup.launch.py']), # why do we have to add this???
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')), # why do we have to add this???
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -18,12 +20,13 @@ setup(
     maintainer_email='icr247@todo.todo',
     description='TODO: Package description',
     license='TODO: License declaration',
-    tests_require=['pytest'],
+    # tests_require=['pytest'],    # Anna commented out because not needed
     entry_points={
         'console_scripts': [
-            "tcp_can_client = ezw.test:main",
-            "tcp_can_diff_client = ezw.diff_drive:main",
+            "test = ezw.test:main",
+            "diff_drive = ezw.diff_drive:main",
             "object_detector = ezw.object_detector:main",
+            "follow_person = ezw.follow_person:main"
         ],
     },
 )

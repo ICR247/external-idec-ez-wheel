@@ -1,4 +1,11 @@
 #!/home/icr247/ros2-yolo-venv/bin/python3
+
+''' RUN:
+export PYTHONPATH=/home/icr247/ros2-yolo-venv/lib/python3.12/site-packages:$PYTHONPATH
+export PATH=/home/icr247/ros2-yolo-venv/bin:$PATH
+ros2 launch realsense2_camera rs_launch.py
+'''
+
 import rclpy
 from rclpy.node import Node
 from rclpy.qos import QoSProfile, QoSReliabilityPolicy, QoSHistoryPolicy
@@ -106,7 +113,7 @@ class ObjectDetector(Node):
 
             try:
                 # Run YOLO inference on the BGR frame (ultralytics expects numpy array)
-                results = self.model(frame, imgsz=self.imgsz, conf=self.conf_thres)  # list-like results
+                results = self.model(frame, imgsz=self.imgsz, conf=self.conf_thres, verbose=False)  # list-like results
                 r = results[0]
 
                 # draw annotated image (ultralytics offers .plot())
