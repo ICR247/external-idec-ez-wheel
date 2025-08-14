@@ -17,6 +17,21 @@ def generate_launch_description():
         )
     )
 
+    nav2 = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(
+            os.path.join(
+                get_package_share_directory('nav2_bringup'),
+                'launch',
+                'bringup_launch.py'
+            )
+        ),
+        launch_arguments={
+            'use_sim_time': 'false',
+            'params_file': '/home/icr247/external-idec-ez-wheel/src/ezw/params/nav2_params.yaml'
+        }.items()
+    )
+
+
     return LaunchDescription([
         
         realsense_launch,
@@ -82,6 +97,9 @@ def generate_launch_description():
             ],
             #ros_arguments=['--log-level', 'debug']
         ),
+
+        # Launch Navigation stack
+        nav2 
 
         # set up joystick control
         # Node(
