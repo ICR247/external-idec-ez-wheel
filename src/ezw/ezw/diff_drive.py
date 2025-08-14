@@ -5,11 +5,14 @@ v_left  = v - (L / 2.0) * omega
 v_right = v + (L / 2.0) * omega
 '''
 
+
+''' RUN:
+1. ros2 run joy joy_node
+1a. ros2 topic echo /joy
+2. (in embedded computer) run tcp_to_can_diff.py
+3. ros2 run ezw diff_drive
 '''
-IN TERMINAL RUN:
-ros2 launch realsense2_camera rs_launch.py
-ros2 run ezw object_detector
-'''
+# ros2 topic echo detections/json --full-length
 
 import rclpy
 from rclpy.node import Node

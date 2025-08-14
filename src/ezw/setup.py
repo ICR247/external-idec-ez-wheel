@@ -26,7 +26,7 @@ setup(
             "test = ezw.test:main",
             "diff_drive = ezw.diff_drive:main",
             "object_detector = ezw.object_detector:main",
-            "follow_person = ezw.follow_person:main"
+            "follow_ball = ezw.follow_balln:main"
         ],
     },
 )

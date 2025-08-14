@@ -24,18 +24,10 @@ def generate_launch_description():
             package='ezw',
             executable='object_detector',
             output='screen',
-            # env={
-            #     'PYTHONPATH': '/home/icr247/ros2-yolo-venv/lib/python3.12/site-packages:$PYTHONPATH',
-            #     'PATH': '/home/icr247/ros2-yolo-venv/bin:$PATH'
-            # }
         ),
         Node(
             package='ezw',
-            executable='follow_person',
+            executable='follow_ball',
             output='screen',
-            # env={
-            #     'PYTHONPATH': '/home/icr247/ros2-yolo-venv/lib/python3.12/site-packages:$PYTHONPATH',
-            #     'PATH': '/home/icr247/ros2-yolo-venv/bin:$PATH'
-            # }
         ),
     ])

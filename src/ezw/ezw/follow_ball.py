@@ -1,11 +1,8 @@
 #!/home/icr247/ros2-yolo-venv/bin/python3
 
 ''' RUN:
-export PYTHONPATH=/home/icr247/ros2-yolo-venv/lib/python3.12/site-packages:$PYTHONPATH
-export PATH=/home/icr247/ros2-yolo-venv/bin:$PATH
-ros2 launch realsense2_camera rs_launch.py
-ros2 run ezw object_detector
-ros2 run ezw follow_person
+1. (in embedded computer) run tcp_to_can_diff.py
+2. ros2 launch ezw follow_person.launch.py
 '''
 
 import rclpy
@@ -57,32 +54,35 @@ class TcpCanJoystickClient(Node):
                     self.get_logger().info(f"Person center X: {center_x}")
                     self.get_logger().info(f"Person distance m: {distance}")
 
+            if center_x is not None: 
 
-            if center_x is not None:
-                # 640 is the center of the image so acceptable range is 600-680
-                speed = 640 - center_x
+                off_center = center_x - 640 #calculate how far off the center
 
-                if speed > 40 or speed < -40:
-                    right_velocity = speed
-                    left_velocity = (-1 * speed)
-                elif distance is not None:
-                    if distance >=  0.75 and distance <= 2:
-                        speed = 400 * distance
-                        right_velocity = speed
-                        left_velocity = speed
+                if (off_center > 10 or off_center < -10) and distance is None:  # only left and right
+
+                    right_velocity = (-1 * off_center)
+                    left_velocity = off_center
+
+                elif (off_center > 0 or off_center < -0) and distance is not None: # left and right while going forward
+                    if distance > 0.5 and off_center > 0:
+                        right_velocity = 800 - off_center
+                        left_velocity = 800
+                    elif distance > 0.5 and off_center < 0:
+                        right_velocity = 800
+                        left_velocity = 800 + off_center
+                    elif distance <= 0.5:
+                        right_velocity = 0
+                        left_velocity = 0
                     elif distance > 2:
                         right_velocity = 800
                         left_velocity = 800
-                    else:
-                        right_velocity = 0
-                        left_velocity = 0
                 else:
                     right_velocity = 0
                     left_velocity = 0
-
             else:
-                left_velocity = 0    # don't move if nothing detected
                 right_velocity = 0
+                left_velocity = 0
+
 
             left_velocity = int(left_velocity)
             right_velocity = int(right_velocity)
