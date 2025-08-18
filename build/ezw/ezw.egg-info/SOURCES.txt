@@ -1,8 +1,10 @@
 package.xml
 setup.cfg
 setup.py
+ezw/ROS2_to_TCP.py
 ezw/__init__.py
 ezw/diff_drive.py
+ezw/follow_ball.py
 ezw/object_detector.py
 ezw/test.py
 ezw.egg-info/PKG-INFO
@@ -12,5 +14,6 @@ ezw.egg-info/entry_points.txt
 ezw.egg-info/requires.txt
 ezw.egg-info/top_level.txt
 ezw.egg-info/zip-safe
-launch/bringup.launch.py
+launch/follow_person.launch.py
+launch/slam.launch.py
 resource/ezw

@@ -1,0 +1,660 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (ezw) JobQueued: {'identifier': 'ezw', 'dependencies': OrderedDict()}
+[0.000257] (swd_ros2_controllers) JobQueued: {'identifier': 'swd_ros2_controllers', 'dependencies': OrderedDict()}
+[0.000289] (ezw) JobStarted: {'identifier': 'ezw'}
+[0.006896] (swd_ros2_controllers) JobStarted: {'identifier': 'swd_ros2_controllers'}
+[0.099309] (-) TimerEvent: {}
+[0.199644] (-) TimerEvent: {}
+[0.222203] (swd_ros2_controllers) JobProgress: {'identifier': 'swd_ros2_controllers', 'progress': 'cmake'}
+[0.222738] (swd_ros2_controllers) Command: {'cmd': ['/usr/bin/cmake', '/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers'], 'cwd': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'icr247', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/icr247', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/icr247/external-idec-ez-wheel/src', 'TERM_PROGRAM_VERSION': '1.103.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1872', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2370', 'BUNDLED_DEBUGPY_PATH': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'icr247', 'JOURNAL_STREAM': '8:13199', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'icr247', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/icr247/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/archerlinux3:@/tmp/.ICE-unix/2339,unix/archerlinux3:/tmp/.ICE-unix/2339', 'INVOCATION_ID': 'def73fb74f7340bcb43b33641d47f365', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-187458d12e5dc0f4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-809010ebf3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/icr247/external-idec-ez-wheel/build/ezw:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy'}), 'shell': False}
+[0.286183] (swd_ros2_controllers) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.299816] (-) TimerEvent: {}
+[0.346826] (swd_ros2_controllers) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.370112] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.399941] (-) TimerEvent: {}
+[0.481944] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.490279] (swd_ros2_controllers) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.490549] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.490845] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.500048] (-) TimerEvent: {}
+[0.501436] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.600161] (-) TimerEvent: {}
+[0.621668] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.630809] (swd_ros2_controllers) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.631093] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.631470] (swd_ros2_controllers) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.636366] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700265] (-) TimerEvent: {}
+[0.799675] (ezw) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/icr247/external-idec-ez-wheel/build/ezw/build', '--no-deps', 'symlink_data'], 'cwd': '/home/icr247/external-idec-ez-wheel/build/ezw', 'env': {'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'icr247', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/icr247', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/icr247/external-idec-ez-wheel/src', 'TERM_PROGRAM_VERSION': '1.103.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1872', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2370', 'BUNDLED_DEBUGPY_PATH': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'icr247', 'JOURNAL_STREAM': '8:13199', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'icr247', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/icr247/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/archerlinux3:@/tmp/.ICE-unix/2339,unix/archerlinux3:/tmp/.ICE-unix/2339', 'INVOCATION_ID': 'def73fb74f7340bcb43b33641d47f365', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-187458d12e5dc0f4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-809010ebf3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/icr247/external-idec-ez-wheel/build/ezw', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/icr247/external-idec-ez-wheel/build/ezw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:/home/icr247/external-idec-ez-wheel/build/ezw:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[0.801267] (-) TimerEvent: {}
+[0.804100] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.884695] (swd_ros2_controllers) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.901401] (-) TimerEvent: {}
+[0.946399] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[1.001541] (-) TimerEvent: {}
+[1.006607] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.027305] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.048752] (swd_ros2_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.072470] (swd_ros2_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.101676] (-) TimerEvent: {}
+[1.109456] (ezw) StdoutLine: {'line': b'running develop\n'}
+[1.166244] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[1.170958] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.201811] (-) TimerEvent: {}
+[1.295250] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.301944] (-) TimerEvent: {}
+[1.306259] (ezw) StdoutLine: {'line': b'running egg_info\n'}
+[1.306503] (ezw) StdoutLine: {'line': b'creating ezw.egg-info\n'}
+[1.320457] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[1.325742] (ezw) StdoutLine: {'line': b'writing ezw.egg-info/PKG-INFO\n'}
+[1.326018] (ezw) StdoutLine: {'line': b'writing dependency_links to ezw.egg-info/dependency_links.txt\n'}
+[1.326188] (ezw) StdoutLine: {'line': b'writing entry points to ezw.egg-info/entry_points.txt\n'}
+[1.326295] (ezw) StdoutLine: {'line': b'writing requirements to ezw.egg-info/requires.txt\n'}
+[1.326432] (ezw) StdoutLine: {'line': b'writing top-level names to ezw.egg-info/top_level.txt\n'}
+[1.326555] (ezw) StdoutLine: {'line': b"writing manifest file 'ezw.egg-info/SOURCES.txt'\n"}
+[1.348712] (swd_ros2_controllers) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.371596] (ezw) StdoutLine: {'line': b"reading manifest file 'ezw.egg-info/SOURCES.txt'\n"}
+[1.372161] (ezw) StdoutLine: {'line': b"writing manifest file 'ezw.egg-info/SOURCES.txt'\n"}
+[1.394408] (ezw) StdoutLine: {'line': b'running build_ext\n'}
+[1.394682] (ezw) StdoutLine: {'line': b'Creating /home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw.egg-link (link to .)\n'}
+[1.395163] (ezw) StdoutLine: {'line': b'Installing diff_drive script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw\n'}
+[1.395424] (ezw) StdoutLine: {'line': b'Installing follow_ball script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw\n'}
+[1.395662] (ezw) StdoutLine: {'line': b'Installing object_detector script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw\n'}
+[1.395837] (ezw) StdoutLine: {'line': b'Installing test script to /home/icr247/external-idec-ez-wheel/install/ezw/lib/ezw\n'}
+[1.396016] (ezw) StdoutLine: {'line': b'\n'}
+[1.396137] (ezw) StdoutLine: {'line': b'Installed /home/icr247/external-idec-ez-wheel/build/ezw\n'}
+[1.396251] (ezw) StdoutLine: {'line': b'running symlink_data\n'}
+[1.396435] (ezw) StdoutLine: {'line': b'creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index\n'}
+[1.396514] (ezw) StdoutLine: {'line': b'creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index\n'}
+[1.396564] (ezw) StdoutLine: {'line': b'creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index/packages\n'}
+[1.396652] (ezw) StdoutLine: {'line': b'symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/resource/ezw -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ament_index/resource_index/packages\n'}
+[1.396705] (ezw) StdoutLine: {'line': b'symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/package.xml -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw\n'}
+[1.396758] (ezw) StdoutLine: {'line': b'creating /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw/launch\n'}
+[1.396813] (ezw) StdoutLine: {'line': b'symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/launch/follow_person.launch.py -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw/launch\n'}
+[1.396920] (ezw) StdoutLine: {'line': b'symbolically linking /home/icr247/external-idec-ez-wheel/build/ezw/launch/slam.launch.py -> /home/icr247/external-idec-ez-wheel/install/ezw/share/ezw/launch\n'}
+[1.402009] (-) TimerEvent: {}
+[1.438841] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.455499] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[1.468972] (ezw) CommandEnded: {'returncode': 0}
+[1.480018] (ezw) JobEnded: {'identifier': 'ezw', 'rc': 0}
+[1.502195] (-) TimerEvent: {}
+[1.509845] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[1.520799] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)\n'}
+[1.595190] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)\n'}
+[1.602305] (-) TimerEvent: {}
+[1.678711] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)\n'}
+[1.697985] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)\n'}
+[1.702412] (-) TimerEvent: {}
+[1.714839] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.736126] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.802604] (-) TimerEvent: {}
+[1.902966] (-) TimerEvent: {}
+[2.003289] (-) TimerEvent: {}
+[2.103620] (-) TimerEvent: {}
+[2.203938] (-) TimerEvent: {}
+[2.304266] (-) TimerEvent: {}
+[2.337237] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.404406] (-) TimerEvent: {}
+[2.504774] (-) TimerEvent: {}
+[2.605182] (-) TimerEvent: {}
+[2.705562] (-) TimerEvent: {}
+[2.805912] (-) TimerEvent: {}
+[2.906272] (-) TimerEvent: {}
+[3.006658] (-) TimerEvent: {}
+[3.106984] (-) TimerEvent: {}
+[3.130847] (swd_ros2_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.207113] (-) TimerEvent: {}
+[3.307430] (-) TimerEvent: {}
+[3.407813] (-) TimerEvent: {}
+[3.437715] (swd_ros2_controllers) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.443069] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[3.507935] (-) TimerEvent: {}
+[3.585979] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[3.608071] (-) TimerEvent: {}
+[3.708381] (-) TimerEvent: {}
+[3.808694] (-) TimerEvent: {}
+[3.909035] (-) TimerEvent: {}
+[4.009414] (-) TimerEvent: {}
+[4.075832] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.109548] (-) TimerEvent: {}
+[4.123006] (swd_ros2_controllers) StdoutLine: {'line': b'-- Pkgconfig extra path are: :/opt/ezw/usr/lib/pkgconfig \n'}
+[4.128759] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") \n'}
+[4.131109] (swd_ros2_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[4.209723] (-) TimerEvent: {}
+[4.247683] (swd_ros2_controllers) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[4.248769] (swd_ros2_controllers) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[4.249401] (swd_ros2_controllers) StdoutLine: {'line': b"-- Checking for module 'ezw-types'\n"}
+[4.272435] (swd_ros2_controllers) StdoutLine: {'line': b'--   Found ezw-types, version 1.0.0-30f6b2d\n'}
+[4.309855] (-) TimerEvent: {}
+[4.327682] (swd_ros2_controllers) StdoutLine: {'line': b"-- Checking for module 'ezwLog'\n"}
+[4.352505] (swd_ros2_controllers) StdoutLine: {'line': b'--   Found ezwLog, version 1.2.0-9b73d42\n'}
+[4.409991] (-) TimerEvent: {}
+[4.411712] (swd_ros2_controllers) StdoutLine: {'line': b"-- Checking for module 'ezw-smc-service-client'\n"}
+[4.436031] (swd_ros2_controllers) StdoutLine: {'line': b'--   Found ezw-smc-service-client, version 1.0.0.1-e8a4952\n'}
+[4.499771] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.500174] (swd_ros2_controllers) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.500359] (swd_ros2_controllers) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.500521] (swd_ros2_controllers) StderrLine: {'line': b'\n'}
+[4.500694] (swd_ros2_controllers) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.500747] (swd_ros2_controllers) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.500804] (swd_ros2_controllers) StderrLine: {'line': b'\n'}
+[4.500853] (swd_ros2_controllers) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.500902] (swd_ros2_controllers) StderrLine: {'line': b'  CMakeLists.txt:117 (rosidl_target_interfaces)\n'}
+[4.500951] (swd_ros2_controllers) StderrLine: {'line': b'\n'}
+[4.501001] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[0m\n'}
+[4.510098] (-) TimerEvent: {}
+[4.520990] (swd_ros2_controllers) StdoutLine: {'line': b'-- Configuring done (4.3s)\n'}
+[4.571476] (swd_ros2_controllers) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[4.584492] (swd_ros2_controllers) StdoutLine: {'line': b'-- Build files have been written to: /home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers\n'}
+[4.601734] (swd_ros2_controllers) CommandEnded: {'returncode': 0}
+[4.602455] (swd_ros2_controllers) JobProgress: {'identifier': 'swd_ros2_controllers', 'progress': 'build'}
+[4.603348] (swd_ros2_controllers) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', '--', '-j16', '-l16'], 'cwd': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'icr247', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/icr247', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/icr247/external-idec-ez-wheel/src', 'TERM_PROGRAM_VERSION': '1.103.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1872', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2370', 'BUNDLED_DEBUGPY_PATH': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'icr247', 'JOURNAL_STREAM': '8:13199', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'icr247', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/icr247/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/archerlinux3:@/tmp/.ICE-unix/2339,unix/archerlinux3:/tmp/.ICE-unix/2339', 'INVOCATION_ID': 'def73fb74f7340bcb43b33641d47f365', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-187458d12e5dc0f4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-809010ebf3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/icr247/external-idec-ez-wheel/build/ezw:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy'}), 'shell': False}
+[4.610239] (-) TimerEvent: {}
+[4.668914] (swd_ros2_controllers) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[4.680663] (swd_ros2_controllers) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_symlink_swd_ros2_controllers\n'}
+[4.710340] (-) TimerEvent: {}
+[4.810589] (-) TimerEvent: {}
+[4.894548] (swd_ros2_controllers) StdoutLine: {'line': b'running egg_info\n'}
+[4.895216] (swd_ros2_controllers) StdoutLine: {'line': b'creating swd_ros2_controllers.egg-info\n'}
+[4.898192] (swd_ros2_controllers) StdoutLine: {'line': b'[  2%] Built target swd_ros2_controllers__rosidl_generator_type_description\n'}
+[4.910722] (-) TimerEvent: {}
+[4.912328] (swd_ros2_controllers) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[4.913802] (swd_ros2_controllers) StdoutLine: {'line': b'writing swd_ros2_controllers.egg-info/PKG-INFO\n'}
+[4.914042] (swd_ros2_controllers) StdoutLine: {'line': b'writing dependency_links to swd_ros2_controllers.egg-info/dependency_links.txt\n'}
+[4.914177] (swd_ros2_controllers) StdoutLine: {'line': b'writing top-level names to swd_ros2_controllers.egg-info/top_level.txt\n'}
+[4.914288] (swd_ros2_controllers) StdoutLine: {'line': b"writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'\n"}
+[4.926047] (swd_ros2_controllers) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[4.971735] (swd_ros2_controllers) StdoutLine: {'line': b"reading manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'\n"}
+[4.972198] (swd_ros2_controllers) StdoutLine: {'line': b"writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'\n"}
+[5.010868] (-) TimerEvent: {}
+[5.013801] (swd_ros2_controllers) StdoutLine: {'line': b'[  7%] Built target ament_cmake_python_build_swd_ros2_controllers_egg\n'}
+[5.110997] (-) TimerEvent: {}
+[5.197815] (swd_ros2_controllers) StdoutLine: {'line': b'[  7%] Built target swd_ros2_controllers__cpp\n'}
+[5.211142] (-) TimerEvent: {}
+[5.215232] (swd_ros2_controllers) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__functions.c.o\x1b[0m\n'}
+[5.215487] (swd_ros2_controllers) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.c.o\x1b[0m\n'}
+[5.215654] (swd_ros2_controllers) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__description.c.o\x1b[0m\n'}
+[5.277010] (swd_ros2_controllers) StdoutLine: {'line': b'[ 18%] \x1b[32m\x1b[1mLinking C shared library libswd_ros2_controllers__rosidl_generator_c.so\x1b[0m\n'}
+[5.311271] (-) TimerEvent: {}
+[5.323612] (swd_ros2_controllers) StdoutLine: {'line': b'[ 18%] Built target swd_ros2_controllers__rosidl_generator_c\n'}
+[5.337162] (swd_ros2_controllers) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.337464] (swd_ros2_controllers) StdoutLine: {'line': b'[ 26%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.337633] (swd_ros2_controllers) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[5.337754] (swd_ros2_controllers) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.338776] (swd_ros2_controllers) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[5.338950] (swd_ros2_controllers) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[5.411411] (-) TimerEvent: {}
+[5.511739] (-) TimerEvent: {}
+[5.612049] (-) TimerEvent: {}
+[5.647878] (swd_ros2_controllers) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_c.dir/rosidl_typesupport_c/swd_ros2_controllers/msg/safety_functions__type_support.cpp.o\x1b[0m\n'}
+[5.648285] (swd_ros2_controllers) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/swd_ros2_controllers/msg/safety_functions__type_support.cpp.o\x1b[0m\n'}
+[5.668867] (swd_ros2_controllers) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/swd_ros2_controllers/msg/detail/safety_functions__type_support.cpp.o\x1b[0m\n'}
+[5.683678] (swd_ros2_controllers) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.c.o\x1b[0m\n'}
+[5.695138] (swd_ros2_controllers) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/swd_ros2_controllers/msg/detail/dds_fastrtps/safety_functions__type_support.cpp.o\x1b[0m\n'}
+[5.702510] (swd_ros2_controllers) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swd_ros2_controllers/msg/detail/safety_functions__type_support_c.cpp.o\x1b[0m\n'}
+[5.712188] (-) TimerEvent: {}
+[5.720274] (swd_ros2_controllers) StdoutLine: {'line': b'[ 52%] \x1b[32m\x1b[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.741181] (swd_ros2_controllers) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking C shared library libswd_ros2_controllers__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.779846] (swd_ros2_controllers) StdoutLine: {'line': b'[ 55%] Built target swd_ros2_controllers__rosidl_typesupport_c\n'}
+[5.787083] (swd_ros2_controllers) StdoutLine: {'line': b'[ 55%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_c\n'}
+[5.812323] (-) TimerEvent: {}
+[5.912689] (-) TimerEvent: {}
+[5.993751] (swd_ros2_controllers) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[6.010166] (swd_ros2_controllers) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[6.012795] (-) TimerEvent: {}
+[6.049143] (swd_ros2_controllers) StdoutLine: {'line': b'[ 60%] Built target swd_ros2_controllers__rosidl_typesupport_cpp\n'}
+[6.105918] (swd_ros2_controllers) StdoutLine: {'line': b'[ 60%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_cpp\n'}
+[6.112931] (-) TimerEvent: {}
+[6.149313] (swd_ros2_controllers) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.166473] (swd_ros2_controllers) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.213170] (-) TimerEvent: {}
+[6.216715] (swd_ros2_controllers) StdoutLine: {'line': b'[ 65%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_c\n'}
+[6.229289] (swd_ros2_controllers) StdoutLine: {'line': b'[ 65%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp\n'}
+[6.259068] (swd_ros2_controllers) StdoutLine: {'line': b'[ 65%] Built target swd_ros2_controllers\n'}
+[6.285878] (swd_ros2_controllers) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveController.cpp.o\x1b[0m\n'}
+[6.286109] (swd_ros2_controllers) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveParameters.cpp.o\x1b[0m\n'}
+[6.287267] (swd_ros2_controllers) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.287470] (swd_ros2_controllers) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/main.cpp.o\x1b[0m\n'}
+[6.313278] (-) TimerEvent: {}
+[6.413607] (-) TimerEvent: {}
+[6.513915] (-) TimerEvent: {}
+[6.614212] (-) TimerEvent: {}
+[6.638216] (swd_ros2_controllers) StdoutLine: {'line': b'[ 76%] Built target swd_ros2_controllers__py\n'}
+[6.666414] (swd_ros2_controllers) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_py.dir/rosidl_generator_py/swd_ros2_controllers/msg/_safety_functions_s.c.o\x1b[0m\n'}
+[6.714346] (-) TimerEvent: {}
+[6.814659] (-) TimerEvent: {}
+[6.821555] (swd_ros2_controllers) StdoutLine: {'line': b'[ 81%] \x1b[32m\x1b[1mLinking C shared library libswd_ros2_controllers__rosidl_generator_py.so\x1b[0m\n'}
+[6.881002] (swd_ros2_controllers) StdoutLine: {'line': b'[ 81%] Built target swd_ros2_controllers__rosidl_generator_py\n'}
+[6.907942] (swd_ros2_controllers) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.908177] (swd_ros2_controllers) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.912447] (swd_ros2_controllers) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.914792] (-) TimerEvent: {}
+[7.015136] (-) TimerEvent: {}
+[7.023265] (swd_ros2_controllers) StdoutLine: {'line': b'[ 92%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.029671] (swd_ros2_controllers) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[7.036866] (swd_ros2_controllers) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[7.069146] (swd_ros2_controllers) StdoutLine: {'line': b'[ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_c\n'}
+[7.077310] (swd_ros2_controllers) StdoutLine: {'line': b'[ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c\n'}
+[7.084245] (swd_ros2_controllers) StdoutLine: {'line': b'[ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_introspection_c\n'}
+[7.115267] (-) TimerEvent: {}
+[7.215620] (-) TimerEvent: {}
+[7.315935] (-) TimerEvent: {}
+[7.416244] (-) TimerEvent: {}
+[7.516556] (-) TimerEvent: {}
+[7.616881] (-) TimerEvent: {}
+[7.717201] (-) TimerEvent: {}
+[7.817536] (-) TimerEvent: {}
+[7.917884] (-) TimerEvent: {}
+[8.018200] (-) TimerEvent: {}
+[8.118510] (-) TimerEvent: {}
+[8.218828] (-) TimerEvent: {}
+[8.319141] (-) TimerEvent: {}
+[8.419453] (-) TimerEvent: {}
+[8.519798] (-) TimerEvent: {}
+[8.548659] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Types.hpp:34\x1b[m\x1b[K,\n'}
+[8.549000] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Config.hpp:9\x1b[m\x1b[K,\n'}
+[8.549111] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CallInfo.hpp:9\x1b[m\x1b[K,\n'}
+[8.549223] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Attribute.hpp:18\x1b[m\x1b[K,\n'}
+[8.549312] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CommonAPI.hpp:14\x1b[m\x1b[K,\n'}
+[8.549410] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:17\x1b[m\x1b[K,\n'}
+[8.549506] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-smc-service/DBusClient.hpp:18\x1b[m\x1b[K,\n'}
+[8.549631] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:9\x1b[m\x1b[K,\n'}
+[8.549725] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:8\x1b[m\x1b[K:\n'}
+[8.549808] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:21:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.549878] (swd_ros2_controllers) StderrLine: {'line': b'   21 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentHash: public std::\x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<std::shared_ptr<ClientId>,\n'}
+[8.549938] (swd_ros2_controllers) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.550004] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/functional:49\x1b[m\x1b[K,\n'}
+[8.550065] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:8\x1b[m\x1b[K,\n'}
+[8.550126] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:8\x1b[m\x1b[K:\n'}
+[8.550197] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.550288] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.550353] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.550423] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:26:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.550512] (swd_ros2_controllers) StderrLine: {'line': b'   26 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentEqual: public std::\x1b[01;35m\x1b[Kbinary_function\x1b[m\x1b[K<std::shared_ptr<ClientId>,\n'}
+[8.550602] (swd_ros2_controllers) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.550691] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:131:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.550774] (swd_ros2_controllers) StderrLine: {'line': b'  131 |     struct \x1b[01;36m\x1b[Kbinary_function\x1b[m\x1b[K\n'}
+[8.550857] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.586198] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyConnection.hpp:29\x1b[m\x1b[K,\n'}
+[8.586407] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyBase.hpp:22\x1b[m\x1b[K,\n'}
+[8.586487] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusEvent.hpp:17\x1b[m\x1b[K,\n'}
+[8.586581] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusAttribute.hpp:17\x1b[m\x1b[K,\n'}
+[8.586676] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxy.hpp:18\x1b[m\x1b[K,\n'}
+[8.586835] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:23\x1b[m\x1b[K:\n'}
+[8.586936] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:22:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.587025] (swd_ros2_controllers) StderrLine: {'line': b'   22 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<pair<const char *,\n'}
+[8.587102] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.587184] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.587384] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.587476] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.587556] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:30:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.587727] (swd_ros2_controllers) StderrLine: {'line': b'   30 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<const char *,\n'}
+[8.587802] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.587876] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.587979] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.588139] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.588218] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:37:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.588363] (swd_ros2_controllers) StderrLine: {'line': b'   37 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<pair<string,\n'}
+[8.588435] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.588512] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.588669] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.588762] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.588837] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:45:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.588925] (swd_ros2_controllers) StderrLine: {'line': b'   45 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.589015] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.589092] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.589175] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.589258] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.589340] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:54:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.589426] (swd_ros2_controllers) StderrLine: {'line': b'   54 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.589509] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.589610] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.589702] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.589777] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.589853] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:64:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.589954] (swd_ros2_controllers) StderrLine: {'line': b'   64 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.590034] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.590116] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.590194] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.590273] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.590361] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:74:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.590446] (swd_ros2_controllers) StderrLine: {'line': b'   74 |         public std::\x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.590525] (swd_ros2_controllers) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.590631] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.590716] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.590797] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.590877] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:84:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.590961] (swd_ros2_controllers) StderrLine: {'line': b'   84 |         public \x1b[01;35m\x1b[Kbinary_function\x1b[m\x1b[K<pair<const char *,\n'}
+[8.591041] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.591122] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:131:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.591202] (swd_ros2_controllers) StderrLine: {'line': b'  131 |     struct \x1b[01;36m\x1b[Kbinary_function\x1b[m\x1b[K\n'}
+[8.591284] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.619910] (-) TimerEvent: {}
+[8.715356] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Types.hpp:34\x1b[m\x1b[K,\n'}
+[8.715591] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Config.hpp:9\x1b[m\x1b[K,\n'}
+[8.715701] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CallInfo.hpp:9\x1b[m\x1b[K,\n'}
+[8.715784] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Attribute.hpp:18\x1b[m\x1b[K,\n'}
+[8.715883] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CommonAPI.hpp:14\x1b[m\x1b[K,\n'}
+[8.715966] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:17\x1b[m\x1b[K,\n'}
+[8.716042] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-smc-service/DBusClient.hpp:18\x1b[m\x1b[K,\n'}
+[8.716103] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:9\x1b[m\x1b[K,\n'}
+[8.716164] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/main.cpp:8\x1b[m\x1b[K:\n'}
+[8.716237] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:21:75:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.716329] (swd_ros2_controllers) StderrLine: {'line': b'   21 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentHash: public std::\x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<std::shared_ptr<ClientId>,\n'}
+[8.716404] (swd_ros2_controllers) StderrLine: {'line': b'      |                                                                           \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.716477] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/13/functional:49\x1b[m\x1b[K,\n'}
+[8.716548] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:8\x1b[m\x1b[K,\n'}
+[8.716660] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/icr247/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:8\x1b[m\x1b[K:\n'}
+[8.716748] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.716831] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.716915] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.716996] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:26:76:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.717082] (swd_ros2_controllers) StderrLine: {'line': b'   26 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentEqual: public std::\x1b[01;35m\x1b[Kbinary_function\x1b[m\x1b[K<std::shared_ptr<ClientId>,\n'}
+[8.717176] (swd_ros2_controllers) StderrLine: {'line': b'      |                                                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.717260] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:131:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.717345] (swd_ros2_controllers) StderrLine: {'line': b'  131 |     struct \x1b[01;36m\x1b[Kbinary_function\x1b[m\x1b[K\n'}
+[8.717429] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.720020] (-) TimerEvent: {}
+[8.756759] (swd_ros2_controllers) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyConnection.hpp:29\x1b[m\x1b[K,\n'}
+[8.756950] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyBase.hpp:22\x1b[m\x1b[K,\n'}
+[8.757028] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusEvent.hpp:17\x1b[m\x1b[K,\n'}
+[8.757108] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusAttribute.hpp:17\x1b[m\x1b[K,\n'}
+[8.757190] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxy.hpp:18\x1b[m\x1b[K,\n'}
+[8.757348] (swd_ros2_controllers) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:23\x1b[m\x1b[K:\n'}
+[8.757429] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:22:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.757517] (swd_ros2_controllers) StderrLine: {'line': b'   22 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<pair<const char *,\n'}
+[8.757734] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.757808] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.757878] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.757945] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.758010] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:30:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.758091] (swd_ros2_controllers) StderrLine: {'line': b'   30 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<const char *,\n'}
+[8.758176] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.758245] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.758315] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.758389] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.758474] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:37:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.758658] (swd_ros2_controllers) StderrLine: {'line': b'   37 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<pair<string,\n'}
+[8.758755] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.758834] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.758915] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.758991] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.759070] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:45:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.759163] (swd_ros2_controllers) StderrLine: {'line': b'   45 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.759241] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.759320] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.759403] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.759483] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.759557] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:54:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.759663] (swd_ros2_controllers) StderrLine: {'line': b'   54 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.759752] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.759832] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.759914] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.759980] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.760042] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:64:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.760104] (swd_ros2_controllers) StderrLine: {'line': b'   64 |         public \x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.760165] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.760230] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.760301] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.760368] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.760443] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:74:21:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg, class _Result> struct std::unary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.760517] (swd_ros2_controllers) StderrLine: {'line': b'   74 |         public std::\x1b[01;35m\x1b[Kunary_function\x1b[m\x1b[K<tuple<string,\n'}
+[8.760610] (swd_ros2_controllers) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.760688] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:117:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.760751] (swd_ros2_controllers) StderrLine: {'line': b'  117 |     struct \x1b[01;36m\x1b[Kunary_function\x1b[m\x1b[K\n'}
+[8.760816] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.760883] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:84:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function\x1b[m\x1b[K\xe2\x80\x99 is deprecated [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[8.760957] (swd_ros2_controllers) StderrLine: {'line': b'   84 |         public \x1b[01;35m\x1b[Kbinary_function\x1b[m\x1b[K<pair<const char *,\n'}
+[8.761028] (swd_ros2_controllers) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.761098] (swd_ros2_controllers) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/13/bits/stl_function.h:131:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[8.761166] (swd_ros2_controllers) StderrLine: {'line': b'  131 |     struct \x1b[01;36m\x1b[Kbinary_function\x1b[m\x1b[K\n'}
+[8.761239] (swd_ros2_controllers) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[8.820148] (-) TimerEvent: {}
+[8.920492] (-) TimerEvent: {}
+[9.020836] (-) TimerEvent: {}
+[9.121145] (-) TimerEvent: {}
+[9.221465] (-) TimerEvent: {}
+[9.321822] (-) TimerEvent: {}
+[9.422124] (-) TimerEvent: {}
+[9.522437] (-) TimerEvent: {}
+[9.622758] (-) TimerEvent: {}
+[9.723045] (-) TimerEvent: {}
+[9.823333] (-) TimerEvent: {}
+[9.923628] (-) TimerEvent: {}
+[10.023900] (-) TimerEvent: {}
+[10.124185] (-) TimerEvent: {}
+[10.224503] (-) TimerEvent: {}
+[10.324884] (-) TimerEvent: {}
+[10.425223] (-) TimerEvent: {}
+[10.525564] (-) TimerEvent: {}
+[10.625912] (-) TimerEvent: {}
+[10.726200] (-) TimerEvent: {}
+[10.826511] (-) TimerEvent: {}
+[10.926813] (-) TimerEvent: {}
+[11.027148] (-) TimerEvent: {}
+[11.127481] (-) TimerEvent: {}
+[11.227852] (-) TimerEvent: {}
+[11.328190] (-) TimerEvent: {}
+[11.428529] (-) TimerEvent: {}
+[11.528905] (-) TimerEvent: {}
+[11.629245] (-) TimerEvent: {}
+[11.729583] (-) TimerEvent: {}
+[11.829845] (-) TimerEvent: {}
+[11.930163] (-) TimerEvent: {}
+[12.030421] (-) TimerEvent: {}
+[12.130675] (-) TimerEvent: {}
+[12.231012] (-) TimerEvent: {}
+[12.331312] (-) TimerEvent: {}
+[12.431608] (-) TimerEvent: {}
+[12.531962] (-) TimerEvent: {}
+[12.632363] (-) TimerEvent: {}
+[12.732784] (-) TimerEvent: {}
+[12.833137] (-) TimerEvent: {}
+[12.933429] (-) TimerEvent: {}
+[13.033826] (-) TimerEvent: {}
+[13.134171] (-) TimerEvent: {}
+[13.234596] (-) TimerEvent: {}
+[13.334988] (-) TimerEvent: {}
+[13.435286] (-) TimerEvent: {}
+[13.535688] (-) TimerEvent: {}
+[13.636101] (-) TimerEvent: {}
+[13.736518] (-) TimerEvent: {}
+[13.836933] (-) TimerEvent: {}
+[13.937292] (-) TimerEvent: {}
+[14.037689] (-) TimerEvent: {}
+[14.138122] (-) TimerEvent: {}
+[14.238520] (-) TimerEvent: {}
+[14.338954] (-) TimerEvent: {}
+[14.439362] (-) TimerEvent: {}
+[14.539769] (-) TimerEvent: {}
+[14.640118] (-) TimerEvent: {}
+[14.740520] (-) TimerEvent: {}
+[14.840963] (-) TimerEvent: {}
+[14.941257] (-) TimerEvent: {}
+[15.041553] (-) TimerEvent: {}
+[15.141984] (-) TimerEvent: {}
+[15.242398] (-) TimerEvent: {}
+[15.342766] (-) TimerEvent: {}
+[15.443160] (-) TimerEvent: {}
+[15.543508] (-) TimerEvent: {}
+[15.643940] (-) TimerEvent: {}
+[15.744309] (-) TimerEvent: {}
+[15.844669] (-) TimerEvent: {}
+[15.945055] (-) TimerEvent: {}
+[16.045402] (-) TimerEvent: {}
+[16.145814] (-) TimerEvent: {}
+[16.246187] (-) TimerEvent: {}
+[16.346508] (-) TimerEvent: {}
+[16.446882] (-) TimerEvent: {}
+[16.547298] (-) TimerEvent: {}
+[16.647680] (-) TimerEvent: {}
+[16.748034] (-) TimerEvent: {}
+[16.848437] (-) TimerEvent: {}
+[16.948877] (-) TimerEvent: {}
+[17.049275] (-) TimerEvent: {}
+[17.149652] (-) TimerEvent: {}
+[17.250001] (-) TimerEvent: {}
+[17.350414] (-) TimerEvent: {}
+[17.450838] (-) TimerEvent: {}
+[17.551189] (-) TimerEvent: {}
+[17.651623] (-) TimerEvent: {}
+[17.752037] (-) TimerEvent: {}
+[17.852449] (-) TimerEvent: {}
+[17.952905] (-) TimerEvent: {}
+[18.053292] (-) TimerEvent: {}
+[18.153673] (-) TimerEvent: {}
+[18.254030] (-) TimerEvent: {}
+[18.354411] (-) TimerEvent: {}
+[18.459597] (-) TimerEvent: {}
+[18.560050] (-) TimerEvent: {}
+[18.660453] (-) TimerEvent: {}
+[18.760903] (-) TimerEvent: {}
+[18.861281] (-) TimerEvent: {}
+[18.961602] (-) TimerEvent: {}
+[19.061909] (-) TimerEvent: {}
+[19.162319] (-) TimerEvent: {}
+[19.262738] (-) TimerEvent: {}
+[19.363147] (-) TimerEvent: {}
+[19.463561] (-) TimerEvent: {}
+[19.563973] (-) TimerEvent: {}
+[19.664308] (-) TimerEvent: {}
+[19.764718] (-) TimerEvent: {}
+[19.865084] (-) TimerEvent: {}
+[19.965392] (-) TimerEvent: {}
+[20.065826] (-) TimerEvent: {}
+[20.101317] (swd_ros2_controllers) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable swd_diff_drive_controller\x1b[0m\n'}
+[20.165933] (-) TimerEvent: {}
+[20.266258] (-) TimerEvent: {}
+[20.366670] (-) TimerEvent: {}
+[20.467119] (-) TimerEvent: {}
+[20.567535] (-) TimerEvent: {}
+[20.667903] (-) TimerEvent: {}
+[20.768345] (-) TimerEvent: {}
+[20.868827] (-) TimerEvent: {}
+[20.969218] (-) TimerEvent: {}
+[21.069608] (-) TimerEvent: {}
+[21.169911] (-) TimerEvent: {}
+[21.270289] (-) TimerEvent: {}
+[21.370686] (-) TimerEvent: {}
+[21.372118] (swd_ros2_controllers) StdoutLine: {'line': b'[100%] Built target swd_diff_drive_controller\n'}
+[21.388978] (swd_ros2_controllers) CommandEnded: {'returncode': 0}
+[21.389812] (swd_ros2_controllers) JobProgress: {'identifier': 'swd_ros2_controllers', 'progress': 'install'}
+[21.402997] (swd_ros2_controllers) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers'], 'cwd': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'icr247', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'GIT_ASKPASS': '/usr/share/code/resources/app/extensions/git/dist/askpass.sh', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/icr247', 'CHROME_DESKTOP': 'code.desktop', 'OLDPWD': '/home/icr247/external-idec-ez-wheel/src', 'TERM_PROGRAM_VERSION': '1.103.1', 'DESKTOP_SESSION': 'ubuntu-xorg', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/code.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'VSCODE_GIT_ASKPASS_MAIN': '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\]\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$ \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/usr/share/code/code', 'MANAGERPID': '1872', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'SYSTEMD_EXEC_PID': '2370', 'BUNDLED_DEBUGPY_PATH': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/libs/debugpy', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '5506', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'icr247', 'JOURNAL_STREAM': '8:13199', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@x11.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'icr247', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/bundled/scripts/noConfigScripts:/home/icr247/.config/Code/User/globalStorage/github.copilot-chat/debugCommand', 'SESSION_MANAGER': 'local/archerlinux3:@/tmp/.ICE-unix/2339,unix/archerlinux3:/tmp/.ICE-unix/2339', 'INVOCATION_ID': 'def73fb74f7340bcb43b33641d47f365', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'GDK_BACKEND': 'x11', 'DISPLAY': ':0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/icr247/.vscode/extensions/ms-python.debugpy-2025.10.0-linux-x64/.noConfigDebugAdapterEndpoints/endpoint-187458d12e5dc0f4.txt', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'Unity', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu-xorg', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-809010ebf3.sock', 'TERM_PROGRAM': 'vscode', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy', 'ORIGINAL_XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu-xorg', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/icr247/external-idec-ez-wheel/build/ezw:/home/icr247/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/icr247/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy'}), 'shell': False}
+[21.412595] (swd_ros2_controllers) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[21.413073] (swd_ros2_controllers) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[21.413367] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/rosidl_interfaces/swd_ros2_controllers\n'}
+[21.426265] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.json\n'}
+[21.438387] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__functions.h\n'}
+[21.449955] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__struct.h\n'}
+[21.461446] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__type_support.h\n'}
+[21.470812] (-) TimerEvent: {}
+[21.472618] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_generator_c__visibility_control.h\n'}
+[21.485489] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/safety_functions.h\n'}
+[21.499283] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/library_path.sh\n'}
+[21.511053] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/library_path.dsv\n'}
+[21.524110] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_fastrtps_c.h\n'}
+[21.536732] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[21.547838] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__builder.hpp\n'}
+[21.558600] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__struct.hpp\n'}
+[21.570535] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__traits.hpp\n'}
+[21.570870] (-) TimerEvent: {}
+[21.584051] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__type_support.hpp\n'}
+[21.596088] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[21.608280] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/safety_functions.hpp\n'}
+[21.621406] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[21.634663] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[21.646643] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_introspection_c.h\n'}
+[21.658250] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[21.670042] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_introspection_cpp.hpp\n'}
+[21.670979] (-) TimerEvent: {}
+[21.682897] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/pythonpath.sh\n'}
+[21.693605] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/pythonpath.dsv\n'}
+[21.707111] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/PKG-INFO\n'}
+[21.718546] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[21.730724] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[21.742090] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/top_level.txt\n'}
+[21.754125] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/__init__.py\n'}
+[21.765795] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_c.c\n'}
+[21.771098] (-) TimerEvent: {}
+[21.778015] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[21.789379] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[21.802305] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/__init__.py\n'}
+[21.815385] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions.py\n'}
+[21.827866] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions_s.c\n'}
+[21.840017] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so\n'}
+[21.851769] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.863266] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so\n'}
+[21.871232] (-) TimerEvent: {}
+[21.874313] (swd_ros2_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so\n'}
+[21.874781] (swd_ros2_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so\n'}
+[21.875044] (swd_ros2_controllers) StdoutLine: {'line': b'-- Up-to-date symlink: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so\n'}
+[21.875284] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.idl\n'}
+[21.887136] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.msg\n'}
+[21.899430] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/swd_ros2_controllers/swd_diff_drive_controller\n'}
+[21.911133] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/launch/swd_diff_drive_controller.launch.py\n'}
+[21.923543] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/package_run_dependencies/swd_ros2_controllers\n'}
+[21.937635] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/parent_prefix_path/swd_ros2_controllers\n'}
+[21.949849] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/ament_prefix_path.sh\n'}
+[21.961730] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/ament_prefix_path.dsv\n'}
+[21.971363] (-) TimerEvent: {}
+[21.973183] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/path.sh\n'}
+[21.985481] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/path.dsv\n'}
+[21.996771] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.bash\n'}
+[22.008815] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.sh\n'}
+[22.020891] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.zsh\n'}
+[22.032622] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.dsv\n'}
+[22.044320] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/package.dsv\n'}
+[22.055398] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/packages/swd_ros2_controllers\n'}
+[22.068111] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake-extras.cmake\n'}
+[22.071489] (-) TimerEvent: {}
+[22.079665] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[22.091370] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[22.104315] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[22.116630] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[22.127687] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[22.139393] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[22.152222] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllersConfig.cmake\n'}
+[22.163819] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllersConfig-version.cmake\n'}
+[22.171645] (-) TimerEvent: {}
+[22.175953] (swd_ros2_controllers) StdoutLine: {'line': b'-- Symlinking: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/package.xml\n'}
+[22.188067] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_c.so\n'}
+[22.189240] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_c.so" to ""\n'}
+[22.189492] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so\n'}
+[22.189794] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[22.189920] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so\n'}
+[22.190183] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[22.190279] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_c.so\n'}
+[22.190579] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_c.so" to ""\n'}
+[22.190694] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_c.so\n'}
+[22.190949] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_c.so" to ""\n'}
+[22.191028] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so\n'}
+[22.191368] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[22.191473] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_cpp.so\n'}
+[22.191767] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_cpp.so" to ""\n'}
+[22.227344] (swd_ros2_controllers) StdoutLine: {'line': b"Listing '/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers'...\n"}
+[22.227612] (swd_ros2_controllers) StdoutLine: {'line': b"Compiling '/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/__init__.py'...\n"}
+[22.227751] (swd_ros2_controllers) StdoutLine: {'line': b"Listing '/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg'...\n"}
+[22.227860] (swd_ros2_controllers) StdoutLine: {'line': b"Compiling '/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/__init__.py'...\n"}
+[22.227965] (swd_ros2_controllers) StdoutLine: {'line': b"Compiling '/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions.py'...\n"}
+[22.234128] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_py.so\n'}
+[22.234922] (swd_ros2_controllers) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_py.so" to ""\n'}
+[22.235201] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cExport.cmake\n'}
+[22.235409] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cExport-noconfig.cmake\n'}
+[22.235571] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[22.235719] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[22.235865] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cppExport.cmake\n'}
+[22.236019] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[22.236166] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[22.236311] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cExport.cmake\n'}
+[22.236457] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[22.236608] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cExport.cmake\n'}
+[22.236765] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[22.236908] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[22.237049] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[22.237210] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cppExport.cmake\n'}
+[22.237332] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[22.237479] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_pyExport.cmake\n'}
+[22.237622] (swd_ros2_controllers) StdoutLine: {'line': b'-- Installing: /home/icr247/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_pyExport-noconfig.cmake\n'}
+[22.240886] (swd_ros2_controllers) CommandEnded: {'returncode': 0}
+[22.258645] (swd_ros2_controllers) JobEnded: {'identifier': 'swd_ros2_controllers', 'rc': 0}
+[22.259813] (-) EventReactorShutdown: {}

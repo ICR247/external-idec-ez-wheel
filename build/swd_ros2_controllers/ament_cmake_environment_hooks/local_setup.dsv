@@ -1,0 +1,4 @@
+source;share/swd_ros2_controllers/environment/ament_prefix_path.sh
+source;share/swd_ros2_controllers/environment/library_path.sh
+source;share/swd_ros2_controllers/environment/path.sh
+source;share/swd_ros2_controllers/environment/pythonpath.sh

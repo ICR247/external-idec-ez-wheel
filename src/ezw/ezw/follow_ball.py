@@ -16,7 +16,7 @@ import json
 
 class TcpCanJoystickClient(Node):
     def __init__(self):
-        super().__init__('follow_person')
+        super().__init__('follow_ball')
         self.declare_parameter('robot_ip', '10.1.69.215')
         self.declare_parameter('robot_port', 5555)
 
@@ -48,7 +48,8 @@ class TcpCanJoystickClient(Node):
             detection_data = json.loads(msg.data)
 
             for detection in detection_data["detections"]:
-                if detection["label"] == "sports ball" or detection["label"] == "orange" or detection["label"] == "frisbee":
+                if detection["label"] == "person" or detection["label"] == "dog"
+                #detection["label"] == "sports ball" or detection["label"] == "orange" or detection["label"] == "frisbee":
                     center_x = detection["center_pixel"][0]
                     distance = detection["center_depth_m"]
                     self.get_logger().info(f"Person center X: {center_x}")
