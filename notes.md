@@ -40,4 +40,16 @@ ldconfig -p | grep libCommonAPI-DBus
 # how to check can0 status
 ip -det link show can0
 
+# swd_ros2_controller services
+
+sudo systemctl restart ezw-stack.service
+sudo systemctl restart ezw-dbus-user-session.service
+sudo systemctl restart ezw-swd-left.service 
+sudo systemctl restart ezw-swd-right.service
+
+debug tip: if not working, restart are services in order
+
+# to run:
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ezw/usr/lib
+ros2 launch swd_ros2_controllers swd_diff_drive_controller.launch.py
 

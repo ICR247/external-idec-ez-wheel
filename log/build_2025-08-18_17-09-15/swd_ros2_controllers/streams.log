@@ -1,0 +1,398 @@
+[0.296s] Invoking command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers
+[0.438s] -- The C compiler identification is GNU 13.3.0
+[0.557s] -- The CXX compiler identification is GNU 13.3.0
+[0.585s] -- Detecting C compiler ABI info
+[0.717s] -- Detecting C compiler ABI info - done
+[0.734s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.735s] -- Detecting C compile features
+[0.736s] -- Detecting C compile features - done
+[0.749s] -- Detecting CXX compiler ABI info
+[0.889s] -- Detecting CXX compiler ABI info - done
+[0.898s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.898s] -- Detecting CXX compile features
+[0.899s] -- Detecting CXX compile features - done
+[0.922s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.115s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.210s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.297s] -- Found rclcpp: 28.1.10 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.394s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.424s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.460s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.492s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.631s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.640s] -- Found rmw_fastrtps_cpp: 8.4.2 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.789s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.823s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.850s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.974s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[1.994s] -- Found nav_msgs: 5.3.6 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[2.061s] -- Found tf2: 0.36.12 (/opt/ros/jazzy/share/tf2/cmake)
+[2.069s] -- Found tf2_msgs: 0.36.12 (/opt/ros/jazzy/share/tf2_msgs/cmake)
+[2.154s] -- Found tf2_ros: 0.36.12 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[2.260s] -- Found lifecycle_msgs: 2.0.2 (/opt/ros/jazzy/share/lifecycle_msgs/cmake)
+[2.283s] -- Found rclcpp_lifecycle: 28.1.10 (/opt/ros/jazzy/share/rclcpp_lifecycle/cmake)
+[2.303s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[2.339s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[3.038s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.306s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.312s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.485s] -- Found PythonExtra: /usr/bin/python3  
+[5.068s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.121s] -- Pkgconfig extra path are: :/opt/ezw/usr/lib/pkgconfig 
+[5.128s] -- Found PkgConfig: /usr/bin/pkg-config (found version "1.8.1") 
+[5.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[5.273s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[5.274s] -- Found Threads: TRUE  
+[5.275s] -- Checking for module 'ezw-types'
+[5.297s] --   Found ezw-types, version 1.0.0-30f6b2d
+[5.354s] -- Checking for module 'ezwLog'
+[5.378s] --   Found ezwLog, version 1.2.0-9b73d42
+[5.437s] -- Checking for module 'ezw-smc-service-client'
+[5.464s] --   Found ezw-smc-service-client, version 1.0.0.1-e8a4952
+[5.531s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.532s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.532s]   rosidl_target_interfaces().  i.e:
+[5.532s] 
+[5.532s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[5.532s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[5.532s] 
+[5.532s] Call Stack (most recent call first):
+[5.532s]   CMakeLists.txt:117 (rosidl_target_interfaces)
+[5.532s] 
+[5.532s] [0m
+[5.551s] -- Configuring done (5.2s)
+[5.609s] -- Generating done (0.0s)
+[5.627s] -- Build files have been written to: /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers
+[5.653s] Invoked command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers
+[5.654s] Invoking command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers -- -j16 -l16
+[5.734s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.748s] [  2%] Built target ament_cmake_python_symlink_swd_ros2_controllers
+[6.003s] running egg_info
+[6.004s] creating swd_ros2_controllers.egg-info
+[6.026s] writing swd_ros2_controllers.egg-info/PKG-INFO
+[6.027s] writing dependency_links to swd_ros2_controllers.egg-info/dependency_links.txt
+[6.027s] writing top-level names to swd_ros2_controllers.egg-info/top_level.txt
+[6.027s] writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[6.036s] [  2%] Built target swd_ros2_controllers__rosidl_generator_type_description
+[6.059s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[6.077s] [  7%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[6.099s] reading manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[6.099s] writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[6.151s] [  7%] Built target ament_cmake_python_build_swd_ros2_controllers_egg
+[6.413s] [  7%] Built target swd_ros2_controllers__cpp
+[6.425s] [ 15%] [32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.c.o[0m
+[6.426s] [ 15%] [32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__description.c.o[0m
+[6.426s] [ 15%] [32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_c.dir/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__functions.c.o[0m
+[6.495s] [ 18%] [32m[1mLinking C shared library libswd_ros2_controllers__rosidl_generator_c.so[0m
+[6.550s] [ 18%] Built target swd_ros2_controllers__rosidl_generator_c
+[6.568s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.569s] [ 28%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.569s] [ 28%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.569s] [ 34%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.569s] [ 34%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.569s] [ 34%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.985s] [ 36%] [32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_c.dir/rosidl_typesupport_c/swd_ros2_controllers/msg/safety_functions__type_support.cpp.o[0m
+[6.987s] [ 39%] [32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/swd_ros2_controllers/msg/safety_functions__type_support.cpp.o[0m
+[6.991s] [ 42%] [32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/swd_ros2_controllers/msg/detail/safety_functions__type_support.cpp.o[0m
+[7.003s] [ 44%] [32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.c.o[0m
+[7.012s] [ 50%] [32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/swd_ros2_controllers/msg/detail/safety_functions__type_support_c.cpp.o[0m
+[7.012s] [ 50%] [32mBuilding CXX object CMakeFiles/swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/swd_ros2_controllers/msg/detail/dds_fastrtps/safety_functions__type_support.cpp.o[0m
+[7.065s] [ 52%] [32m[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_c.so[0m
+[7.073s] [ 55%] [32m[1mLinking C shared library libswd_ros2_controllers__rosidl_typesupport_introspection_c.so[0m
+[7.132s] [ 55%] Built target swd_ros2_controllers__rosidl_typesupport_c
+[7.132s] [ 55%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_c
+[7.413s] [ 57%] [32m[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_cpp.so[0m
+[7.426s] [ 60%] [32m[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so[0m
+[7.481s] [ 60%] Built target swd_ros2_controllers__rosidl_typesupport_cpp
+[7.549s] [ 60%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_cpp
+[7.598s] [ 63%] [32m[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so[0m
+[7.605s] [ 65%] [32m[1mLinking CXX shared library libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.672s] [ 65%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_c
+[7.677s] [ 65%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp
+[7.707s] [ 65%] Built target swd_ros2_controllers
+[7.743s] [ 71%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.743s] [ 71%] [32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveController.cpp.o[0m
+[7.745s] [ 73%] [32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveParameters.cpp.o[0m
+[7.746s] [ 76%] [32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/main.cpp.o[0m
+[8.228s] [ 76%] Built target swd_ros2_controllers__py
+[8.266s] [ 78%] [32mBuilding C object CMakeFiles/swd_ros2_controllers__rosidl_generator_py.dir/rosidl_generator_py/swd_ros2_controllers/msg/_safety_functions_s.c.o[0m
+[8.460s] [ 81%] [32m[1mLinking C shared library libswd_ros2_controllers__rosidl_generator_py.so[0m
+[8.535s] [ 81%] Built target swd_ros2_controllers__rosidl_generator_py
+[8.583s] [ 86%] [32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_c.c.o[0m
+[8.583s] [ 86%] [32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.584s] [ 89%] [32mBuilding C object CMakeFiles/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.727s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so[0m
+[8.736s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so[0m
+[8.736s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so[0m
+[8.791s] [ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_c
+[8.799s] [ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c
+[8.799s] [ 97%] Built target swd_ros2_controllers_s__rosidl_typesupport_introspection_c
+[10.738s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Types.hpp:34[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Config.hpp:9[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CallInfo.hpp:9[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Attribute.hpp:18[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CommonAPI.hpp:14[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:17[m[K,
+[10.739s]                  from [01m[K/opt/ezw/usr/include/ezw-smc-service/DBusClient.hpp:18[m[K,
+[10.739s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:9[m[K,
+[10.740s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/main.cpp:8[m[K:
+[10.740s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:21:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.740s]    21 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentHash: public std::[01;35m[Kunary_function[m[K<std::shared_ptr<ClientId>,
+[10.740s]       |                                                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.740s] In file included from [01m[K/usr/include/c++/13/functional:49[m[K,
+[10.740s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:8[m[K,
+[10.740s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:8[m[K:
+[10.740s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.740s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.740s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.741s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:26:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.741s]    26 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentEqual: public std::[01;35m[Kbinary_function[m[K<std::shared_ptr<ClientId>,
+[10.741s]       |                                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.741s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.741s]   131 |     struct [01;36m[Kbinary_function[m[K
+[10.741s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[10.747s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Types.hpp:34[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Config.hpp:9[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CallInfo.hpp:9[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Attribute.hpp:18[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CommonAPI.hpp:14[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:17[m[K,
+[10.748s]                  from [01m[K/opt/ezw/usr/include/ezw-smc-service/DBusClient.hpp:18[m[K,
+[10.748s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:9[m[K,
+[10.748s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:8[m[K:
+[10.748s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:21:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.748s]    21 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentHash: public std::[01;35m[Kunary_function[m[K<std::shared_ptr<ClientId>,
+[10.749s]       |                                                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.749s] In file included from [01m[K/usr/include/c++/13/functional:49[m[K,
+[10.749s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:8[m[K,
+[10.749s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:8[m[K:
+[10.749s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.749s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.749s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.749s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:26:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.749s]    26 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentEqual: public std::[01;35m[Kbinary_function[m[K<std::shared_ptr<ClientId>,
+[10.749s]       |                                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.749s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.750s]   131 |     struct [01;36m[Kbinary_function[m[K
+[10.750s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[10.797s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyConnection.hpp:29[m[K,
+[10.797s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyBase.hpp:22[m[K,
+[10.797s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusEvent.hpp:17[m[K,
+[10.797s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusAttribute.hpp:17[m[K,
+[10.797s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxy.hpp:18[m[K,
+[10.797s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:23[m[K:
+[10.797s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:22:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.798s]    22 |         public [01;35m[Kunary_function[m[K<pair<const char *,
+[10.798s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.798s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.798s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.798s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.798s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.798s]    30 |         public [01;35m[Kunary_function[m[K<const char *,
+[10.798s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.798s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.798s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.798s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.798s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:37:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.798s]    37 |         public [01;35m[Kunary_function[m[K<pair<string,
+[10.798s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.799s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.799s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.799s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.799s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:45:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.799s]    45 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.799s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.799s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.799s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.799s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.799s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:54:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.799s]    54 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.799s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.800s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.800s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.800s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.800s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:64:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.800s]    64 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.800s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.800s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.800s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.800s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.800s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:74:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.800s]    74 |         public std::[01;35m[Kunary_function[m[K<tuple<string,
+[10.800s]       |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.800s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.800s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.800s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.801s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:84:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.801s]    84 |         public [01;35m[Kbinary_function[m[K<pair<const char *,
+[10.801s]       |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.801s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.801s]   131 |     struct [01;36m[Kbinary_function[m[K
+[10.801s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[10.804s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyConnection.hpp:29[m[K,
+[10.804s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyBase.hpp:22[m[K,
+[10.804s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusEvent.hpp:17[m[K,
+[10.804s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusAttribute.hpp:17[m[K,
+[10.804s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxy.hpp:18[m[K,
+[10.804s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:23[m[K:
+[10.804s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:22:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.804s]    22 |         public [01;35m[Kunary_function[m[K<pair<const char *,
+[10.804s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.805s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.805s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.805s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.805s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.805s]    30 |         public [01;35m[Kunary_function[m[K<const char *,
+[10.805s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.805s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.805s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.805s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.805s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:37:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.805s]    37 |         public [01;35m[Kunary_function[m[K<pair<string,
+[10.805s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.805s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.806s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.806s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.806s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:45:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.806s]    45 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.806s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.806s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.806s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.806s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.806s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:54:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.807s]    54 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.807s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.807s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.807s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.807s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.807s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:64:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.807s]    64 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[10.807s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.807s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.807s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.808s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.808s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:74:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.808s]    74 |         public std::[01;35m[Kunary_function[m[K<tuple<string,
+[10.808s]       |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[10.808s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.808s]   117 |     struct [01;36m[Kunary_function[m[K
+[10.808s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[10.808s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:84:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[10.808s]    84 |         public [01;35m[Kbinary_function[m[K<pair<const char *,
+[10.808s]       |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[10.808s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[10.808s]   131 |     struct [01;36m[Kbinary_function[m[K
+[10.808s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[24.622s] [100%] [32m[1mLinking CXX executable swd_diff_drive_controller[0m
+[26.156s] [100%] Built target swd_diff_drive_controller
+[26.173s] Invoked command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers -- -j16 -l16
+[26.186s] Invoking command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers
+[26.199s] -- Install configuration: ""
+[26.199s] -- Execute custom install script
+[26.200s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/rosidl_interfaces/swd_ros2_controllers
+[26.216s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.json
+[26.232s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__functions.h
+[26.243s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__struct.h
+[26.255s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__type_support.h
+[26.267s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_generator_c__visibility_control.h
+[26.278s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/safety_functions.h
+[26.289s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/library_path.sh
+[26.304s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/library_path.dsv
+[26.322s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_fastrtps_c.h
+[26.337s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[26.349s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__builder.hpp
+[26.363s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__struct.hpp
+[26.374s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__traits.hpp
+[26.387s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__type_support.hpp
+[26.402s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_generator_cpp__visibility_control.hpp
+[26.419s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/safety_functions.hpp
+[26.433s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_fastrtps_cpp.hpp
+[26.444s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[26.458s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_introspection_c.h
+[26.470s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[26.483s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/include/swd_ros2_controllers/swd_ros2_controllers/msg/detail/safety_functions__rosidl_typesupport_introspection_cpp.hpp
+[26.498s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/pythonpath.sh
+[26.514s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/pythonpath.dsv
+[26.530s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/PKG-INFO
+[26.543s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/SOURCES.txt
+[26.555s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/dependency_links.txt
+[26.569s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers-2.1.0-py3.12.egg-info/top_level.txt
+[26.581s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/__init__.py
+[26.595s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_c.c
+[26.612s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_fastrtps_c.c
+[26.627s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/_swd_ros2_controllers_s.ep.rosidl_typesupport_introspection_c.c
+[26.640s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/__init__.py
+[26.651s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions.py
+[26.664s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions_s.c
+[26.675s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so
+[26.687s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so
+[26.703s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so
+[26.720s] -- Up-to-date symlink: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so
+[26.721s] -- Up-to-date symlink: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_introspection_c.so
+[26.721s] -- Up-to-date symlink: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_c.so
+[26.723s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.idl
+[26.737s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/msg/SafetyFunctions.msg
+[26.751s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/swd_ros2_controllers/swd_diff_drive_controller
+[26.765s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/launch/swd_diff_drive_controller.launch.py
+[26.777s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/package_run_dependencies/swd_ros2_controllers
+[26.789s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/parent_prefix_path/swd_ros2_controllers
+[26.802s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/ament_prefix_path.sh
+[26.818s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/ament_prefix_path.dsv
+[26.833s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/path.sh
+[26.848s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/environment/path.dsv
+[26.861s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.bash
+[26.873s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.sh
+[26.885s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.zsh
+[26.901s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/local_setup.dsv
+[26.918s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/package.dsv
+[26.935s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/ament_index/resource_index/packages/swd_ros2_controllers
+[26.947s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake-extras.cmake
+[26.962s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[26.974s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[26.986s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[27.001s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/ament_cmake_export_targets-extras.cmake
+[27.018s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[27.033s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[27.047s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllersConfig.cmake
+[27.060s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllersConfig-version.cmake
+[27.072s] -- Symlinking: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/package.xml
+[27.083s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_c.so
+[27.085s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_c.so" to ""
+[27.085s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so
+[27.086s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_c.so" to ""
+[27.086s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so
+[27.086s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_fastrtps_cpp.so" to ""
+[27.086s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_c.so
+[27.087s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_c.so" to ""
+[27.087s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_c.so
+[27.087s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_c.so" to ""
+[27.087s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so
+[27.088s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_introspection_cpp.so" to ""
+[27.088s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_cpp.so
+[27.088s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_typesupport_cpp.so" to ""
+[27.154s] Listing '/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers'...
+[27.155s] Compiling '/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/__init__.py'...
+[27.155s] Listing '/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg'...
+[27.155s] Compiling '/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/__init__.py'...
+[27.155s] Compiling '/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/python3.12/site-packages/swd_ros2_controllers/msg/_safety_functions.py'...
+[27.164s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_py.so
+[27.164s] -- Set non-toolchain portion of runtime path of "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/lib/libswd_ros2_controllers__rosidl_generator_py.so" to ""
+[27.164s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cExport.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cExport-noconfig.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cExport.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_cppExport.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cppExport.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cExport.cmake
+[27.165s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[27.166s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cExport.cmake
+[27.166s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cExport-noconfig.cmake
+[27.166s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cppExport.cmake
+[27.166s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[27.167s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cppExport.cmake
+[27.167s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/swd_ros2_controllers__rosidl_typesupport_cppExport-noconfig.cmake
+[27.167s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_pyExport.cmake
+[27.167s] -- Installing: /home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers/share/swd_ros2_controllers/cmake/export_swd_ros2_controllers__rosidl_generator_pyExport-noconfig.cmake
+[27.170s] Invoked command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers

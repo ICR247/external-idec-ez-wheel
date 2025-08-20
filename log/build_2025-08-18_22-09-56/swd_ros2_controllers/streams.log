@@ -1,0 +1,140 @@
+[0.274s] Invoking command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers -- -j16 -l16
+[0.356s] [  2%] Built target swd_ros2_controllers__rosidl_generator_type_description
+[0.369s] [  2%] Built target ament_cmake_python_symlink_swd_ros2_controllers
+[0.384s] [ 10%] Built target swd_ros2_controllers__cpp
+[0.385s] [ 18%] Built target swd_ros2_controllers__rosidl_generator_c
+[0.423s] [ 26%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_c
+[0.427s] [ 34%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_c
+[0.429s] [ 50%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp
+[0.430s] [ 50%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_cpp
+[0.431s] [ 57%] Built target swd_ros2_controllers__rosidl_typesupport_c
+[0.438s] [ 65%] Built target swd_ros2_controllers__rosidl_typesupport_cpp
+[0.472s] [ 65%] Built target swd_ros2_controllers
+[0.503s] [ 68%] Built target swd_ros2_controllers__py
+[0.537s] [ 71%] [32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveController.cpp.o[0m
+[0.551s] [ 76%] Built target swd_ros2_controllers__rosidl_generator_py
+[0.585s] [ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_introspection_c
+[0.585s] [ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_c
+[0.586s] [ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c
+[0.670s] running egg_info
+[0.692s] writing swd_ros2_controllers.egg-info/PKG-INFO
+[0.693s] writing dependency_links to swd_ros2_controllers.egg-info/dependency_links.txt
+[0.693s] writing top-level names to swd_ros2_controllers.egg-info/top_level.txt
+[0.771s] reading manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[0.772s] writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[0.822s] [ 92%] Built target ament_cmake_python_build_swd_ros2_controllers_egg
+[2.981s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Types.hpp:34[m[K,
+[2.981s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Config.hpp:9[m[K,
+[2.981s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CallInfo.hpp:9[m[K,
+[2.981s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/Attribute.hpp:18[m[K,
+[2.981s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/CommonAPI.hpp:14[m[K,
+[2.982s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:17[m[K,
+[2.982s]                  from [01m[K/opt/ezw/usr/include/ezw-smc-service/DBusClient.hpp:18[m[K,
+[2.982s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:9[m[K,
+[2.982s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:8[m[K:
+[2.982s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:21:75:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.982s]    21 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentHash: public std::[01;35m[Kunary_function[m[K<std::shared_ptr<ClientId>,
+[2.982s]       |                                                                           [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.982s] In file included from [01m[K/usr/include/c++/13/functional:49[m[K,
+[2.982s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:8[m[K,
+[2.982s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveController.hpp:8[m[K:
+[2.982s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.982s]   117 |     struct [01;36m[Kunary_function[m[K
+[2.982s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[2.983s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/ContainerUtils.hpp:26:76:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.983s]    26 |     struct COMMONAPI_EXPORT SharedPointerClientIdContentEqual: public std::[01;35m[Kbinary_function[m[K<std::shared_ptr<ClientId>,
+[2.983s]       |                                                                            [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.983s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.983s]   131 |     struct [01;36m[Kbinary_function[m[K
+[2.983s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.019s] In file included from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyConnection.hpp:29[m[K,
+[3.019s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxyBase.hpp:22[m[K,
+[3.019s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusEvent.hpp:17[m[K,
+[3.019s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusAttribute.hpp:17[m[K,
+[3.020s]                  from [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusProxy.hpp:18[m[K,
+[3.020s]                  from [01m[K/opt/ezw/usr/include/ezw-tools/DBusClientDelegate.hpp:23[m[K:
+[3.020s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:22:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.020s]    22 |         public [01;35m[Kunary_function[m[K<pair<const char *,
+[3.021s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.021s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.021s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.021s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.021s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:30:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.021s]    30 |         public [01;35m[Kunary_function[m[K<const char *,
+[3.022s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.022s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.022s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.022s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.022s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:37:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.022s]    37 |         public [01;35m[Kunary_function[m[K<pair<string,
+[3.022s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.022s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.022s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.022s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.023s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:45:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.023s]    45 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[3.023s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.023s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.023s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.023s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.023s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:54:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.023s]    54 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[3.023s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.024s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.024s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:64:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.024s]    64 |         public [01;35m[Kunary_function[m[K<tuple<string,
+[3.024s]       |                [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.024s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.024s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.028s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.028s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:74:21:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg, class _Result> struct std::unary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.028s]    74 |         public std::[01;35m[Kunary_function[m[K<tuple<string,
+[3.029s]       |                     [01;35m[K^~~~~~~~~~~~~~[m[K
+[3.029s] [01m[K/usr/include/c++/13/bits/stl_function.h:117:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.029s]   117 |     struct [01;36m[Kunary_function[m[K
+[3.029s]       |            [01;36m[K^~~~~~~~~~~~~~[m[K
+[3.029s] [01m[K/opt/ezw/usr/include/CommonAPI-3.1/CommonAPI/DBus/DBusFunctionalHash.hpp:84:16:[m[K [01;35m[Kwarning: [m[K‘[01m[Ktemplate<class _Arg1, class _Arg2, class _Result> struct std::binary_function[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[3.029s]    84 |         public [01;35m[Kbinary_function[m[K<pair<const char *,
+[3.029s]       |                [01;35m[K^~~~~~~~~~~~~~~[m[K
+[3.029s] [01m[K/usr/include/c++/13/bits/stl_function.h:131:12:[m[K [01;36m[Knote: [m[Kdeclared here
+[3.029s]   131 |     struct [01;36m[Kbinary_function[m[K
+[3.030s]       |            [01;36m[K^~~~~~~~~~~~~~~[m[K
+[3.522s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.522s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+[3.523s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+[3.523s]                  from [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include/diff_drive_controller/DiffDriveParameters.hpp:12[m[K:
+[3.524s] [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:[m[K In member function ‘[01m[Kvoid ezw::swd::DiffDriveController::[01;32m[KcbTimerStateMachine[m[K()[m[K’:
+[3.524s] [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:290:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kezw::smccore::INMTService::NMTState[m[K’ to ‘[01m[Kconst char*[m[K’
+[3.524s]   290 |         RCLCPP_INFO(get_logger(), [01;31m[Knmt_state_l[m[K)
+[3.524s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[3.525s]       |                                   [01;31m[K|[m[K
+[3.525s]       |                                   [01;31m[Kezw::smccore::INMTService::NMTState[m[K
+[3.526s] In file included from [01m[K/opt/ros/jazzy/include/rmw/rmw/types.h:28[m[K,
+[3.526s]                  from [01m[K/opt/ros/jazzy/include/rcl/rcl/types.h:20[m[K,
+[3.526s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions/exceptions.hpp:23[m[K,
+[3.526s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/exceptions.hpp:18[m[K,
+[3.527s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/parameter.hpp:25[m[K,
+[3.527s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:25[m[K:
+[3.528s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[3.528s]   473 |   [01;36m[Kconst char * format[m[K,
+[3.528s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.528s] [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:291:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kdo[m[K’
+[3.529s]   291 |         [01;31m[KRCLCPP_INFO[m[K(get_logger(), nmt_state_r)
+[3.529s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[3.530s] [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:291:35:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kezw::smccore::INMTService::NMTState[m[K’ to ‘[01m[Kconst char*[m[K’
+[3.530s]   291 |         RCLCPP_INFO(get_logger(), [01;31m[Knmt_state_r[m[K)
+[3.530s]       |                                   [01;31m[K^~~~~~~~~~~[m[K
+[3.530s]       |                                   [01;31m[K|[m[K
+[3.531s]       |                                   [01;31m[Kezw::smccore::INMTService::NMTState[m[K
+[3.531s] [01m[K/opt/ros/jazzy/include/rcutils/rcutils/logging.h:473:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid[01;32m[K rcutils_log_internal[m[K(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[3.532s]   473 |   [01;36m[Kconst char * format[m[K,
+[3.532s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[3.532s] [01m[K/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/src/diff_drive_controller/DiffDriveController.cpp:295:9:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+[3.533s]   295 |         [01;31m[Kif[m[K (m_first_entry || m_nmt_ok != nmt_ok) {
+[3.533s]       |         [01;31m[K^~[m[K
+[8.607s] gmake[2]: *** [CMakeFiles/swd_diff_drive_controller.dir/build.make:76: CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveController.cpp.o] Error 1
+[8.608s] gmake[1]: *** [CMakeFiles/Makefile2:626: CMakeFiles/swd_diff_drive_controller.dir/all] Error 2
+[8.608s] gmake: *** [Makefile:146: all] Error 2
+[8.612s] Invoked command in '/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/swd_sk/external-idec-ez-wheel/install/ezw:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers -- -j16 -l16

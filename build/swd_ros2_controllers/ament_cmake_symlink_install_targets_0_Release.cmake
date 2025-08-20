@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/icr247/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_py/swd_ros2_controllers/swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c.so" "TARGETS" "swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c" "DESTINATION" "lib/python3.12/site-packages/swd_ros2_controllers")

@@ -1,0 +1,24 @@
+[  2%] Built target swd_ros2_controllers__rosidl_generator_type_description
+[  2%] Built target ament_cmake_python_symlink_swd_ros2_controllers
+[ 10%] Built target swd_ros2_controllers__cpp
+[ 18%] Built target swd_ros2_controllers__rosidl_generator_c
+[ 26%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_c
+[ 34%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_c
+[ 50%] Built target swd_ros2_controllers__rosidl_typesupport_fastrtps_cpp
+[ 50%] Built target swd_ros2_controllers__rosidl_typesupport_introspection_cpp
+[ 57%] Built target swd_ros2_controllers__rosidl_typesupport_c
+[ 65%] Built target swd_ros2_controllers__rosidl_typesupport_cpp
+[ 65%] Built target swd_ros2_controllers
+[ 68%] Built target swd_ros2_controllers__py
+[ 71%] [32mBuilding CXX object CMakeFiles/swd_diff_drive_controller.dir/src/diff_drive_controller/DiffDriveController.cpp.o[0m
+[ 76%] Built target swd_ros2_controllers__rosidl_generator_py
+[ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_introspection_c
+[ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_c
+[ 92%] Built target swd_ros2_controllers_s__rosidl_typesupport_fastrtps_c
+running egg_info
+writing swd_ros2_controllers.egg-info/PKG-INFO
+writing dependency_links to swd_ros2_controllers.egg-info/dependency_links.txt
+writing top-level names to swd_ros2_controllers.egg-info/top_level.txt
+reading manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+writing manifest file 'swd_ros2_controllers.egg-info/SOURCES.txt'
+[ 92%] Built target ament_cmake_python_build_swd_ros2_controllers_egg
