@@ -1,4 +1,0 @@
-source;share/swd_ros2_controllers/local_setup.bash
-source;share/swd_ros2_controllers/local_setup.dsv
-source;share/swd_ros2_controllers/local_setup.sh
-source;share/swd_ros2_controllers/local_setup.zsh
