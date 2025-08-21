@@ -1,5 +1,6 @@
 [console_scripts]
 diff_drive = ezw.diff_drive:main
+diff_drive2 = ezw.diff_drive2:main
 follow_ball = ezw.follow_ball:main
-object_detector = ezw.object_detector:main
+follow_ball2 = ezw.follow_ball2:main
 test = ezw.test:main

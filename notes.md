@@ -3,6 +3,9 @@
 # running the camera with depth perception
 ros2 launch realsense2_camera rs_launch.py
 
+export PYTHONPATH=~/yolovenv/lib/python3.12/site-packages:$PYTHONPATH
+
+
 # running object detection
 make sure global path is set to virtual environment
 ros2 run ezw object_detector

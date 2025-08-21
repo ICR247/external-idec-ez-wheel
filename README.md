@@ -1,27 +1,31 @@
 # SWD-EZ-WHEEL ROS2 DRIVER SETUP
 
-This project allows you to control a differential-drive robot using swd_ros2_controllers. 
+This project allows you to control a differential-drive robot using the SWD EZ-Wheels by using their swd_ros2_controllers.
+
+Additionally, there is an extension that also allows you to track and follow objects with a depth perception camera. 
 
 ## Table of Contents
 
 ### On this page:
 1. [Prerequisites](#prerequisites)
-3. [Installation](#installation)
-4. [Running the Project](#running-the-project)
+2. [ROS2 Wheel Driver Installation](#installation)
+3. [Running the ROS2 Wheel Driver](#running-the-ros2-wheel-driver)
+4. [Running the Follow Ball Program](#running-the-folloq-ball-program)
 5. [Acknowledgements](#acknowledgements)
 
 ### Dedicated pages:
 1. [Troubleshooting](./.docs/troubleshooting.md)
- <!-- . [License](#license) -->
-
 
 
 ## Prerequisites
+For just the differential drive:
    - Linux Ubuntu 24.04
    - CAN-to-USB converter ([recommended: RH02 USB-to-CAN Converter](https://www.amazon.com/Jhoinrch-Converter-Open-Source-Hardware-Operating/dp/B0CRB8KXWL))
+For the object following program:
+   - Depth Camera ([recommended: Intel RealSense D456](https://store.realsenseai.com/buy-intel-realsense-depth-camera-d456.html?srsltid=AfmBOoqkjm4JbCpeJVfGqdiTUsUTtYwASr900dfDDn8FJs0InGAz8mhW))
 
 
-## Installation
+## ROS2 Wheel Driver Installation
 1. [First install ROS2 Jazzy](https://docs.ros.org/en/jazzy/Installation/Ubuntu-Install-Debs.html) 
 
 <br>
@@ -120,18 +124,22 @@ cd /opt/ezw/commissioning/
 
 
 
-## Running the Project
+## Running the ROS2 Wheel Driver
+Make sure your project is built
+```bash
+colcon build --symlink-install
+```
+
 This command allows the terminal to access the proper ezw libraries and runs the given swd_ros2_controllers launch file
 ```bash
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ezw/usr/lib
 ros2 launch swd_ros2_controllers swd_diff_drive_controller.launch.py
 ```
 
-you should be able to run ros2 node list and see:
+You should be able to run ros2 node list and see:
 ```bash
 swd_ros2_controllers
 ```
-
 or ros2 topic list and see topics such as:
 ```bash
 /cmd_vel
@@ -140,7 +148,7 @@ or ros2 topic list and see topics such as:
 ...
 ```
 
-also, make sure you can make both wheels move using this command:
+Also, make sure you can make both wheels move using this command:
 ```bash
 ros2 topic pub -r 10 /set_speed geometry_msgs/Point "{x: 10.0, y: 10.0, z: 0.0}"
 ```
@@ -149,6 +157,76 @@ If one of these doesn't work, please refer to our troubleshooting section or the
 [Troubleshooting]((./docs/troubleshooting.md))
 [swd_ros2_controllers issues](https://github.com/IDEC-ezWheel/swd_ros2_controllers/issues)
 [swd_ros_controllers issues](https://github.com/IDEC-ezWheel/swd_ros_controllers/issues)
+
+
+## Running the Follow Ball Program
+
+1. Install your camera SDK (Ex: librealsense)[https://github.com/IntelRealSense/librealsense]
+
+For an Intel camera, install the required packages
+```bash
+sudo apt update
+sudo apt install git cmake build-essential libusb-1.0-0-dev pkg-config libssl-dev libudev-dev libglfw3-dev libgl1-mesa-dev libglu1-mesa-dev
+```
+
+Clone the SDK
+```bash
+git clone https://github.com/IntelRealSense/librealsense.git
+cd librealsense
+```
+
+Setup udev rules
+```bash
+./scripts/setup_udev_rules.sh
+```
+
+Configure and build
+```bash
+mkdir build && cd build
+cmake ../ -DCMAKE_BUILD_TYPE=Release -DFORCE_RSUSB_BACKEND=true
+make -j$(nproc)
+sudo make install
+```
+
+Verify installation by connecting camera and running
+```bash
+realsense-viewer
+```
+
+2. Reboot computer
+
+3. Make virtual environment
+```bash
+python3 -m venv ~/yolovenv
+source ~/yolovenv/bin/activate
+pip install --upgrade pip
+```
+
+4. Install Ultralytics (make sure all dependencies are met)
+```bash
+pip install ultralytics
+```
+verify install
+```bash
+yolo --version
+```
+
+5. Add environment variable that Python checks to know where to search for modules and packages in addition to the default locations.
+```bash
+export PYTHONPATH=~/yolovenv/lib/python3.12/site-packages:$PYTHONPATH
+```
+
+6. Make sure the object-detector, ezw, and ros2_controler packages are built
+```bash
+colcon build --symlink-install
+```
+
+6. Run launch file 
+```bash
+export PYTHONPATH=~/yolovenv/lib/python3.12/site-packages:$PYTHONPATH
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/ezw/usr/lib
+ros2 launch ezw follow_ball.launch.py 
+```
 
 ## Acknowledgments 
 

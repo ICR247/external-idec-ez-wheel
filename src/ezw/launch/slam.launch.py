@@ -1,3 +1,7 @@
+
+# This is a test laumnch file for SLAM using SLAM Toolbox and a RealSense camera
+# It is not fully functional!!!
+
 from launch import LaunchDescription
 from launch_ros.actions import Node
 from launch.actions import IncludeLaunchDescription

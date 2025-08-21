@@ -1,6 +1,6 @@
 # Troubleshooting
 
-If you're having problems setting up your IDED EZ-Wheel Starterkit Robot, you've come to the right page
+If you're having problems setting up your IDED EZ-Wheel Starterkit Robot, you've come to the right page. 
 
 ## Table of Contents
 
