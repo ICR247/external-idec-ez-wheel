@@ -1,0 +1,21 @@
+swd_diff_drive_controller:
+  ros__parameters:
+    baseline_m: 0.3                   # distance between wheels
+    pub_freq_hz: 50
+    left_swd_config_file: "/opt/ezw/usr/etc/ezw-smc-core/swd_left_config.ini"
+    right_swd_config_file: "/opt/ezw/usr/etc/ezw-smc-core/swd_right_config.ini"
+    command_timeout_ms: 500
+    control_mode: "Twist"             # subscribe to /cmd_vel
+    base_frame: "base_link"
+    odom_frame: "odom"
+    wheel_max_speed_rpm: 75.0
+    wheel_safety_limited_speed_1_rpm: 40.0
+    wheel_safety_limited_speed_2_rpm: 48.5
+    wheel_max_delta_speed_rpm: 37.5
+    have_backward_sls: false
+    left_encoder_relative_error: 0.02
+    right_encoder_relative_error: 0.02
+    publish_odom: true
+    publish_tf: true
+    publish_safety_functions: true
+    accurate_odometry: true

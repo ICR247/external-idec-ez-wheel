@@ -12,7 +12,7 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')), # why do we have to add this???
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.launch.*')), # add so that launch files are installed
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,10 +23,7 @@ setup(
     # tests_require=['pytest'],    # Anna commented out because not needed
     entry_points={
         'console_scripts': [
-            "test = ezw.test:main",
-            "diff_drive = ezw.diff_drive:main",
-            "object_detector = ezw.object_detector:main",
-            "follow_ball = ezw.follow_ball:main"
+            "follow_ball = ezw.follow_ball:main",
         ],
     },
 )

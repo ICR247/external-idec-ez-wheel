@@ -1,0 +1,20 @@
+[1.276s] Invoking command in '/home/swd_sk/external-idec-ez-wheel/build/ezw': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swd_sk/external-idec-ez-wheel/build/ezw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swd_sk/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swd_sk/external-idec-ez-wheel/build/ezw/build --no-deps symlink_data
+[1.656s] running develop
+[1.897s] running egg_info
+[1.920s] writing ezw.egg-info/PKG-INFO
+[1.920s] writing dependency_links to ezw.egg-info/dependency_links.txt
+[1.921s] writing entry points to ezw.egg-info/entry_points.txt
+[1.921s] writing requirements to ezw.egg-info/requires.txt
+[1.921s] writing top-level names to ezw.egg-info/top_level.txt
+[1.974s] reading manifest file 'ezw.egg-info/SOURCES.txt'
+[1.975s] writing manifest file 'ezw.egg-info/SOURCES.txt'
+[1.997s] running build_ext
+[1.997s] Creating /home/swd_sk/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages/ezw.egg-link (link to .)
+[1.997s] Installing diff_drive script to /home/swd_sk/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.997s] Installing follow_ball script to /home/swd_sk/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.997s] Installing object_detector script to /home/swd_sk/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.998s] Installing test script to /home/swd_sk/external-idec-ez-wheel/install/ezw/lib/ezw
+[1.998s] 
+[1.998s] Installed /home/swd_sk/external-idec-ez-wheel/build/ezw
+[1.998s] running symlink_data
+[2.059s] Invoked command in '/home/swd_sk/external-idec-ez-wheel/build/ezw' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/swd_sk/external-idec-ez-wheel/build/ezw/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/swd_sk/external-idec-ez-wheel/install/ezw/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/swd_sk/external-idec-ez-wheel/build/ezw/build --no-deps symlink_data

@@ -1,0 +1,539 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "libswd_ros2_controllers__rosidl_generator_c.so"
+		}
+	],
+	"backtrace" : 5,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"include",
+			"ament_execute_extensions",
+			"rosidl_generate_interfaces",
+			"_install",
+			"ament_cmake_symlink_install_targets",
+			"install",
+			"target_link_libraries",
+			"set_target_properties",
+			"find_package",
+			"add_dependencies",
+			"add_definitions",
+			"target_include_directories",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"/opt/ros/jazzy/share/rosidl_generator_c/cmake/rosidl_generator_c_generate_interfaces.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake",
+			"/opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake",
+			"CMakeLists.txt",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/ament_cmake_symlink_install_targets.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_core/cmake/symlink_install/install.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsExport.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/ament_cmake_export_targets-extras.cmake",
+			"/opt/ros/jazzy/share/rcutils/cmake/rcutilsConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rosidl_runtime_c/cmake/rosidl_runtime_cConfig.cmake",
+			"/opt/ros/jazzy/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/builtin_interfaces/cmake/builtin_interfacesConfig.cmake",
+			"/opt/ros/jazzy/share/rclcpp/cmake/ament_cmake_export_dependencies-extras.cmake",
+			"/opt/ros/jazzy/share/rclcpp/cmake/rclcppConfig.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_ros-extras.cmake",
+			"/opt/ros/jazzy/share/ament_cmake_ros/cmake/ament_cmake_rosConfig.cmake",
+			"/opt/ros/jazzy/share/rosidl_typesupport_fastrtps_c/cmake/rosidl_typesupport_fastrtps_c_generate_interfaces.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 3
+			},
+			{
+				"command" : 3,
+				"file" : 3,
+				"line" : 30,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 280,
+				"parent" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 0,
+				"parent" : 3
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 143,
+				"parent" : 4
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 200,
+				"parent" : 4
+			},
+			{
+				"command" : 5,
+				"file" : 5,
+				"line" : 37,
+				"parent" : 6
+			},
+			{
+				"command" : 4,
+				"file" : 4,
+				"line" : 50,
+				"parent" : 7
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 165,
+				"parent" : 4
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 170,
+				"parent" : 4
+			},
+			{
+				"command" : 9,
+				"file" : 3,
+				"line" : 19,
+				"parent" : 0
+			},
+			{
+				"file" : 14,
+				"parent" : 12
+			},
+			{
+				"command" : 1,
+				"file" : 14,
+				"line" : 41,
+				"parent" : 13
+			},
+			{
+				"file" : 13,
+				"parent" : 14
+			},
+			{
+				"command" : 9,
+				"file" : 13,
+				"line" : 21,
+				"parent" : 15
+			},
+			{
+				"file" : 12,
+				"parent" : 16
+			},
+			{
+				"command" : 1,
+				"file" : 12,
+				"line" : 41,
+				"parent" : 17
+			},
+			{
+				"file" : 11,
+				"parent" : 18
+			},
+			{
+				"command" : 9,
+				"file" : 11,
+				"line" : 21,
+				"parent" : 19
+			},
+			{
+				"file" : 10,
+				"parent" : 20
+			},
+			{
+				"command" : 1,
+				"file" : 10,
+				"line" : 41,
+				"parent" : 21
+			},
+			{
+				"file" : 9,
+				"parent" : 22
+			},
+			{
+				"command" : 9,
+				"file" : 9,
+				"line" : 21,
+				"parent" : 23
+			},
+			{
+				"file" : 8,
+				"parent" : 24
+			},
+			{
+				"command" : 1,
+				"file" : 8,
+				"line" : 41,
+				"parent" : 25
+			},
+			{
+				"file" : 7,
+				"parent" : 26
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 9,
+				"parent" : 27
+			},
+			{
+				"file" : 6,
+				"parent" : 28
+			},
+			{
+				"command" : 8,
+				"file" : 6,
+				"line" : 61,
+				"parent" : 29
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 174,
+				"parent" : 4
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 152,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 2
+			},
+			{
+				"file" : 17,
+				"parent" : 33
+			},
+			{
+				"command" : 9,
+				"file" : 17,
+				"line" : 21,
+				"parent" : 34
+			},
+			{
+				"file" : 16,
+				"parent" : 35
+			},
+			{
+				"command" : 1,
+				"file" : 16,
+				"line" : 41,
+				"parent" : 36
+			},
+			{
+				"file" : 15,
+				"parent" : 37
+			},
+			{
+				"command" : 11,
+				"file" : 15,
+				"line" : 25,
+				"parent" : 38
+			},
+			{
+				"command" : 12,
+				"file" : 0,
+				"line" : 158,
+				"parent" : 4
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 65,
+				"parent" : 0
+			},
+			{
+				"command" : 13,
+				"file" : 3,
+				"line" : 80,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-std=gnu11 -fPIC   -I/opt/ezw/usr/include -L/opt/ezw/usr/lib -lezwLog -I/opt/ezw/usr/include -I/opt/ezw/usr/include/CommonAPI-3.1 -I/opt/ezw/usr/include/dbus-1.0 -I/opt/ezw/usr/lib/dbus-1.0/include -L/opt/ezw/usr/lib -lezw-smc-service-client -lCommonAPI-DBus -lCommonAPI -lezw-tools -lezwLog"
+				},
+				{
+					"backtrace" : 32,
+					"fragment" : "-Wall"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"define" : "ROSIDL_GENERATOR_C_BUILDING_DLL_swd_ros2_controllers"
+				},
+				{
+					"backtrace" : 39,
+					"define" : "ROS_PACKAGE_NAME=\"swd_ros2_controllers\""
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 40,
+					"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/include"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/msg"
+				},
+				{
+					"backtrace" : 41,
+					"path" : "/home/swd_sk/external-idec-ez-wheel/src/swd_ros2_controllers/msg/swd_ros2_controllers"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/opt/ezw/usr/include"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/opt/ezw/usr/include/CommonAPI-3.1"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/opt/ezw/usr/include/dbus-1.0"
+				},
+				{
+					"backtrace" : 42,
+					"path" : "/opt/ezw/usr/lib/dbus-1.0/include"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/builtin_interfaces"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_runtime_c"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rcutils"
+				},
+				{
+					"backtrace" : 10,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/rosidl_typesupport_interface"
+				},
+				{
+					"backtrace" : 9,
+					"isSystem" : true,
+					"path" : "/opt/ros/jazzy/include/std_msgs"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					32
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 31,
+			"id" : "swd_ros2_controllers__rosidl_generator_type_description::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "swd_ros2_controllers__rosidl_generator_c::@6890427a1f51a3e7e1df",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			},
+			{
+				"backtrace" : 8,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/home/swd_sk/external-idec-ez-wheel/install/swd_ros2_controllers"
+		}
+	},
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Wl,-rpath,/opt/ros/jazzy/lib:",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "/opt/ros/jazzy/lib/libstd_msgs__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 10,
+				"fragment" : "/opt/ros/jazzy/lib/libbuiltin_interfaces__rosidl_generator_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/opt/ros/jazzy/lib/librosidl_runtime_c.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "/opt/ros/jazzy/lib/librcutils.so",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 30,
+				"fragment" : "-ldl",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "swd_ros2_controllers__rosidl_generator_c",
+	"nameOnDisk" : "libswd_ros2_controllers__rosidl_generator_c.so",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3
+			]
+		},
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				4,
+				5,
+				6
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/safety_functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__functions.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__struct.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.h",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__description.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__functions.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 5,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/detail/safety_functions__type_support.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/rosidl_generator_c/swd_ros2_controllers/msg/safety_functions.h.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "SHARED_LIBRARY"
+}

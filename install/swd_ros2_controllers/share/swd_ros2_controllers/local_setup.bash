@@ -1,0 +1,1 @@
+/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/ament_cmake_environment_hooks/local_setup.bash

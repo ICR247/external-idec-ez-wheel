@@ -1,4 +1,6 @@
 [console_scripts]
-object_detector = ezw.object_detector:main
-tcp_can_client = ezw.test:main
-tcp_can_diff_client = ezw.diff_drive:main
+diff_drive = ezw.diff_drive:main
+diff_drive2 = ezw.diff_drive2:main
+follow_ball = ezw.follow_ball:main
+follow_ball2 = ezw.follow_ball2:main
+test = ezw.test:main

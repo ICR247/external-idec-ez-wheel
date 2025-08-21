@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "swd_ros2_controllers__py",
+		"source" : "/home/swd_sk/external-idec-ez-wheel/build/swd_ros2_controllers/swd_ros2_controllers__py"
+	}
+}
