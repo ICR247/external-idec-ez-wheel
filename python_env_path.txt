@@ -1,2 +1,0 @@
-export PYTHONPATH=/home/icr247/ros2-yolo-venv/lib/python3.12/site-packages:$PYTHONPATH
-export PATH=/home/icr247/ros2-yolo-venv/bin:$PATH
