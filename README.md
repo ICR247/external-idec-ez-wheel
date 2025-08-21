@@ -8,10 +8,10 @@ Additionally, there is an extension that also allows you to track and follow obj
 
 ### On this page:
 1. [Prerequisites](#prerequisites)
-2. [ROS2 Wheel Driver Installation](#installation)
+2. [ROS2 Wheel Driver Installation](#ros2-wheel-driver-installation)
 3. [Running the ROS2 Wheel Driver](#running-the-ros2-wheel-driver)
-4. [Running the Follow Ball Program](#running-the-folloq-ball-program)
-5. [Acknowledgements](#acknowledgements)
+4. [Running the Follow Ball Program](#running-the-follow-ball-program)
+5. [Acknowledgments](#acknowledgments)
 
 ### Dedicated pages:
 1. [Troubleshooting](./.docs/troubleshooting.md)
@@ -30,7 +30,7 @@ For the object following program:
 
 <br>
 
-2. To properly install the swd_ros2_controllers package run these commmands. [link to original instructions](https://github.com/IDEC-ezWheel/swd_ros2_controllers)
+2. To properly install the [swd_ros2_controllers package](https://github.com/IDEC-ezWheel/swd_ros2_controllers) run these commmands.
 
 Add ez-Wheel repository to your Apt sources configuration file. Then, download and add the GPG key. 
 ```bash
@@ -39,7 +39,7 @@ sudo bash -c "wget -qO - http://packages.ez-wheel.com:8081/archive.key | gpg --d
 sudo apt-get update && sudo apt install swd-services
 ```
 
-Then compile from source!
+compile from source!
 ```bash
 source /opt/ros/jazzy/setup.bash
 mkdir -p ~/ros2_ws/src/
@@ -61,12 +61,12 @@ sudo bash -c 'echo swd_sk:swd_sk | chpasswd'
 sudo usermod -aG sudo swd_sk
 ```
 
-Then log in with user swd_sk
+log in with user swd_sk
 ```bash
 su - swd_sk
 ```
 
-Since the setup files are not supported on noble, you must modify your sources.list to point to the focal release (this still works in implementation so no worries)
+Since the setup files are not supported on noble, you must modify your sources.list to point to the focal release (this still works in implementation so no worries;))
 ```bash
 echo "deb http://packages.ez-wheel.com:8081/ubuntu/ focal main" | sudo tee -a /etc/apt/sources.list
 sudo bash -c "wget -qO - http://packages.ez-wheel.com:8081/archive.key | gpg --dearmor > /etc/apt/trusted.gpg.d/ez-wheel-keyring.gpg"
@@ -85,7 +85,7 @@ sudo apt install swd-system-config-2wheels
 
 You must modify the ezw-stack and ezw-dbus-user-session startup order
 
-For a system service, systemd reads override files from a drop-in directory:
+For a system services, systemd reads override files from a drop-in directory:
 ```bash
 sudo mkdir -p /etc/systemd/system/ezw-stack.service.d
 sudo mkdir -p /etc/systemd/system/ezw-dbus-user-session.service.d
@@ -118,9 +118,9 @@ cd /opt/ezw/commissioning/
 ./swd_right_5_commissioning.py
 ```
 
-7. Restart the PC. The services may not be entirely properly configured at first so refer to the [troubleshooting]((./docs/troubleshooting.md)) section for more guidance. 
+7. Restart the PC. The services may not be entirely properly configured at first so refer to the [troubleshooting](./.docs/troubleshooting.md) section for more guidance. 
 
-### This project is still in it's early development and testing phases so if there are any issues during installation, please create an issue and our team will look at it!
+### This project is still in its early development and testing phases so if there are any issues during installation, please create an issue and our team will look at it!
 
 
 
@@ -154,14 +154,14 @@ ros2 topic pub -r 10 /set_speed geometry_msgs/Point "{x: 10.0, y: 10.0, z: 0.0}"
 ```
 
 If one of these doesn't work, please refer to our troubleshooting section or the issues pages on the original swd_ros2_controllers or swd_ros_controllers github. Even though swd_ros_controllers is meant for ROS1, it's still extremely insightful in how to debug the services and config files.  
-[Troubleshooting]((./docs/troubleshooting.md))
-[swd_ros2_controllers issues](https://github.com/IDEC-ezWheel/swd_ros2_controllers/issues)
-[swd_ros_controllers issues](https://github.com/IDEC-ezWheel/swd_ros_controllers/issues)
+[Troubleshooting]((./docs/troubleshooting.md)) <br>
+[swd_ros2_controllers issues](https://github.com/IDEC-ezWheel/swd_ros2_controllers/issues) <br>
+[swd_ros_controllers issues](https://github.com/IDEC-ezWheel/swd_ros_controllers/issues) <br>
 
 
 ## Running the Follow Ball Program
 
-1. Install your camera SDK (Ex: librealsense)[https://github.com/IntelRealSense/librealsense]
+1. Install your camera SDK ([Ex: librealsense](https://github.com/IntelRealSense/librealsense))
 
 For an Intel camera, install the required packages
 ```bash
